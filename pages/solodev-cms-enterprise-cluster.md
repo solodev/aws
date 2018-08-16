@@ -1,4 +1,4 @@
-﻿# Solodev on a Single Server
+﻿# Solodev on a High Availability Cluster
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Overview
@@ -19,7 +19,7 @@ You can launch this CloudFormation stack, using your account, in the following A
 
 AWS Region Code             | Name                       | Launch 
 ----------------------------|----------------------------|:-------------------------:
-us-east-1                   | US East (N. Virginia)      | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml)
+us-east-1                   | US East (N. Virginia)      | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml)
 us-east-2                   | US East (Ohio)             | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
 us-west-1                   | US West (N. California)    | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
 us-west-2                   | US West (Oregon)           | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
@@ -31,7 +31,7 @@ ca-central-1                | Canada (Central)           | [![cloudformation-lau
 The above links will launch the "Select Template" wizard with the master template preselected. Click "Next" to customize the launch parameters.
 
 ## Parameters
-![Parameters](images/parameters-single.jpg)
+![Parameters](images/parameters-cluster.jpg)
 
 Parameter                             | Description
 ------------------------------------- | ---------------------
@@ -39,13 +39,18 @@ Stack name     				          | The name of your stack
 **Network Configuration**     		  | 
 Which VPC should this be deployed to? | Choose which VPC the Application should be deployed to
 Subnets     						  | Choose at least two public subnets for this application
+(Optional) FQDN                       | URL for app. FQDN must be pointed to CNAME of ALB.
+(Optional) CertficateArn              | SSL cert for HTTPS listener that matches the FQDN above
 **Server Configuration**              | 
 InstanceType                          | EC2 instance type
 KeyName                               | Name of an existing EC2 KeyPair to enable SSH access to the instances
-HostVolumeSize                        | Size in GB of root volume
-SSHFrom                               | Lockdown SSH access to the bastion host
 **Solodev Configuration**             | 
-InstanceType                          | Build AMI - Please leave this blank unless told otherwise
+AdminUser                             | CMS Admin User
+AdminPassword                         | The solodev admin account password
+DatabasePassword                      | The database root account password
+DevOpsFlavor                          | Which DevOps tools would you like to use to manage auto scaling
+RestoreBucketName                     | Name of bucket containing files for restore
+AMI                                   | Build AMI - Please leave this blank unless told otherwise
 
 ## FAQs
 1. Lorem ipsum dolor sit amet?
@@ -56,3 +61,6 @@ InstanceType                          | Build AMI - Please leave this blank unle
 
 3. Lorem ipsum dolor sit amet?
 > Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
