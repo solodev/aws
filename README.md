@@ -17,6 +17,38 @@ Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev
 [![single-server](pages/images/launch-wxp-lite.png)](pages/solodev-cms-lite.md) | [![single-server](pages/images/launch-wxp-pro.png)](pages/solodev-cms-lite.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-opsworks.png)](pages/solodev-cms-enterprise-cluster.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-autoscale.png)](pages/solodev-cms-enterprise-cluster.md)
 [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md)
 
+### [Solodev WXP Lite](pages/solodev-cms-lite.md)
+<table>
+	<tr>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-wxp-lite.png"/></a></td>
+		<td>Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
+	</tr>
+</table>
+
+### [Solodev WXP Pro](pages/solodev-cms-lite.md)
+<table>
+	<tr>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-wxp-pro.png"/></a></td>
+		<td>Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database</td>
+	</tr>
+</table>
+
+### [Solodev WXP Enterprise (Opsworks)](pages/solodev-cms-lite.md)
+<table>
+	<tr>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-enterprise-opsworks.png"/></a></td>
+		<td>Solodev CMS on a high-available / redundant architecture managed by AWS Opsworks.</td>
+	</tr>
+</table>
+
+### [Solodev WXP Enterprise (AutoScalingGroup)](pages/solodev-cms-lite.md)
+<table>
+	<tr>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-wxp-enterprise-autoscale.png"/></a></td>
+		<td>Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda.</td>
+	</tr>
+</table>
+
 Launch Option                         | Description
 --------------------------------------|--------------------------------------
 Solodev Lite                          | Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server
