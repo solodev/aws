@@ -13,10 +13,10 @@ Solodev deployed on AWS uses a set of YAML templates including [Amazon Virtual P
 ## Launch Options
 For AWS users, see the two available launch options below: 
 
-Single Server                                                                     | High Availability Cluster  
-:--------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:
-[![single-server](pages/images/launch-single.jpg)](pages/solodev-cms-lite.md)     | [![high-availability-cluster](pages/images/launch-cluster.jpg)](pages/solodev-cms-enterprise-cluster.md)
-[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md)
+Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev WXP Enterprise (AutoScalingGroup)                                                                      
+:---------------:|:---------------:|:---------------------------------:|:---------------------------------:
+[![single-server](pages/images/launch-single.jpg)](pages/solodev-cms-lite.md) | [![single-server](pages/images/launch-single.jpg)](pages/solodev-cms-lite.md) | [![high-availability-cluster](pages/images/launch-cluster.jpg)](pages/solodev-cms-enterprise-cluster.md) | [![high-availability-cluster](pages/images/launch-cluster.jpg)](pages/solodev-cms-enterprise-cluster.md)
+[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md)
 
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
