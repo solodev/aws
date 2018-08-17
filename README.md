@@ -28,7 +28,7 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a><br /><a href="#">Quick Launch*</a></td>
 	</tr>
 </table>
-*\*Quick Launch will deploy to US East (N. Virginia)/us-east-1
+<em>* Quick Launch will deploy to US East (N. Virginia)/us-east-1</em>
 
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
