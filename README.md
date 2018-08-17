@@ -29,6 +29,12 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 	</tr>
 </table>
 
+<style>
+table {
+	width: 100%;
+}
+</style>
+
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
 
