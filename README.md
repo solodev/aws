@@ -2,13 +2,8 @@
 
 Solodev is the world's first on-demand web experience platform created by developers for developers. It empowers organizations to create amazing websites with unparalleled levels of security, scalability and total design freedom. Featuring enterprise web content and experience management, Solodev was developed to truly support the custom design requirements that customers demand - beautiful, engaging websites without compromise.
 
-## One Platform for Creators, Developers & Marketers
-User-friendly for non-technical administrators and advanced enough for developers, Solodev enables you to rapidly publish content and engage your audience. The wide range of enterprise features and functionality within Solodev empowers your organization to control every aspect of your online presence. With the Solodev, you can build virtually any type of custom web application suited to the exact needs of your business.
-
 ## Built For AWS
-Focus on your business, not the technological infrastructure that powers it. Solodev and AWS free you up to focus on your customers, not the heavy lifting of racking, stacking and powering servers. Solodev is built on top of Amazon's rock solid infrastructure and makes use of: CloudFormation, CloudFront, EC2, S3 and much more.
-
-Solodev deployed on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (Amazon VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (Amazon EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Auto Scaling](http://docs.aws.amazon.com/autoscaling/latest/userguide/WhatIsAutoScaling.html), [Elastic Load Balancing (Application Load Balancer)](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [Amazon Relational Database Service (Amazon RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon ElastiCache](http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/WhatIs.html), [Amazon Elastic File System (Amazon EFS)](http://docs.aws.amazon.com/efs/latest/ug/whatisefs.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Certificate Manager (Amazon ACM)](http://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html)  with [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
+Focus on your business, not the technological infrastructure that powers it. Solodev and AWS free you up to focus on your customers, not the heavy lifting of racking, stacking and powering servers.
 
 ## Launch Options
 
@@ -16,38 +11,6 @@ Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev
 :---------------:|:---------------:|:---------------------------------:|:---------------------------------:
 [![single-server](pages/images/launch-wxp-lite.png)](pages/solodev-cms-lite.md) | [![single-server](pages/images/launch-wxp-pro.png)](pages/solodev-cms-lite.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-opsworks.png)](pages/solodev-cms-enterprise-cluster.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-autoscale.png)](pages/solodev-cms-enterprise-cluster.md)
 [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md)
-
-### [Solodev WXP Lite](pages/solodev-cms-lite.md)
-<table>
-	<tr>
-		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-wxp-lite.png"/></a></td>
-		<td>Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
-	</tr>
-</table>
-
-### [Solodev WXP Pro](pages/solodev-cms-lite.md)
-<table>
-	<tr>
-		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-wxp-pro.png"/></a></td>
-		<td>Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database</td>
-	</tr>
-</table>
-
-### [Solodev WXP Enterprise (Opsworks)](pages/solodev-cms-lite.md)
-<table>
-	<tr>
-		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-enterprise-opsworks.png"/></a></td>
-		<td>Solodev CMS on a high-available / redundant architecture managed by AWS Opsworks.</td>
-	</tr>
-</table>
-
-### [Solodev WXP Enterprise (AutoScalingGroup)](pages/solodev-cms-lite.md)
-<table>
-	<tr>
-		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-wxp-enterprise-autoscale.png"/></a></td>
-		<td>Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda.</td>
-	</tr>
-</table>
 
 Launch Option                         | Description
 --------------------------------------|--------------------------------------
