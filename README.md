@@ -20,16 +20,16 @@ Solodev Lite | Solodev Pro | Solodev Enterprise (Opsworks) | Solodev Enterprise 
 		<th>Solodev Enterprise (AutoScalingGroup)</th>
 	</tr>
 	<tr>
-		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-lite.md)</td>
-		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-pro.md)</td>
-		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-enterprise-opsworks.md)</td>
-		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-enterprise-autoscaling.md)</td>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-lite.png" /></td>
+		<td><a href="pages/solodev-cms-pro.md"><img src="pages/images/launch-pro.png" /></td>
+		<td><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/launch-enterprise-opsworks.png" /></td>
+		<td><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/launch-enterprise-autoscaling.png" /></td>
 	</tr>
 	<tr>
-		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md)</td>
-		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-pro.md)</td>
-		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-enterprise-opsworks.md)</td>
-		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-enterprise-autoscaling.md)</td>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-btn.png" /></td>
+		<td><a href="pages/solodev-cms-pro.md"><img src="pages/images/launch-btn.png" /></td>
+		<td><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/launch-btn2.png" /></td>
+		<td><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/launch-btn2.png" /></td>
 	</tr>
 </table>
 
