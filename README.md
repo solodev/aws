@@ -162,7 +162,6 @@ Solodev users come in all shapes and sizes from the Solo-developer (the Solodev)
 
 Solodev is positioned to handle both ends of the spectrum and everything in between through our in-depth training and certification programs. Whether you’re a Solodev or a Fortune 500 company, Solodev has a solution to get you up and running in the Solodev platform in no time!
 
-<center>
 ---
 © 2018 Solodev. All rights reserved. 
 
@@ -170,4 +169,3 @@ Errors or corrections? Email us at help@solodev.com.
 
 ---
 Visit [solodev.com](https://www.solodev.com/) to learn more.
-</center>
