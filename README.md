@@ -35,7 +35,7 @@ Enterprise Website Software, Hosting & Support. It's all here in the cloud.
 
 <table>
 	<tr>
-		<th>Feature</th>
+		<th width="415">Feature</th>
 		<th>Lite</th>
 		<th>Pro</th>
 		<th>Enterprise</th>
