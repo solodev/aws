@@ -8,25 +8,25 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 ## Launch Options
 <table>
 	<tr>
-		<td><img src="pages/images/launch-lite.png" style="max-width: 50px;"/></td>
+		<td><img src="pages/images/launch-solodev-lite.png" style="max-width: 50px;"/></td>
 		<td>Solodev Lite</td>
 		<td>Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
 		<td><a href="pages/solodev-cms-lite.md">Details</a></td>
 	</tr>
 	<tr>
-		<td><img src="pages/images/launch-pro.png" style="max-width: 50px;"/></td>
+		<td><img src="pages/images/launch-solodev-pro.png" style="max-width: 50px;"/></td>
 		<td>Solodev Pro</td>
 		<td>Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database</td>
 		<td><a href="pages/solodev-cms-pro.md">Details</a></td>
 	</tr>
 	<tr>
-		<td><img src="pages/images/launch-enterprise-opsworks.png" style="max-width: 50px;"/></td>
+		<td><img src="pages/images/launch-solodev-enterprise-opsworks.png" style="max-width: 50px;"/></td>
 		<td>Solodev Enterprise (Opsworks)</td>
 		<td>Solodev CMS on a high-available / redundant architecture managed by AWS Opsworks.</td>
 		<td><a href="pages/solodev-cms-enterprise-opsworks.md">Details</a></td>
 	</tr>
 	<tr>
-		<td><img src="pages/images/launch-enterprise-autoscale.png" style="max-width: 50px;"/></td>
+		<td><img src="pages/images/launch-solodev-enterprise-autoscaling.png" style="max-width: 50px;"/></td>
 		<td>Solodev Enterprise (AutoScalingGroup)</td>
 		<td>Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda.</td>
 		<td><a href="pages/solodev-cms-enterprise-autoscaling.md">Details</a></td>
