@@ -7,10 +7,31 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 
 ## Launch Options
 
-Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev WXP Enterprise (AutoScalingGroup)                                                                      
+Solodev Lite | Solodev Pro | Solodev Enterprise (Opsworks) | Solodev Enterprise (AutoScalingGroup)                                                                      
 :---------------:|:---------------:|:---------------------------------:|:---------------------------------:
-[![single-server](pages/images/launch-wxp-lite.png)](pages/solodev-cms-lite.md) | [![single-server](pages/images/launch-wxp-pro.png)](pages/solodev-cms-lite.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-opsworks.png)](pages/solodev-cms-enterprise-cluster.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-autoscale.png)](pages/solodev-cms-enterprise-cluster.md)
-[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md)
+[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-lite.md) | [![single-server](pages/images/launch-pro.png)](pages/solodev-cms-lite.md) | [![high-availability-cluster](pages/images/launch-enterprise-opsworks.png)](pages/solodev-cms-pro.md) | [![high-availability-cluster](pages/images/launch-enterprise-autoscale.png)](pages/solodev-cms-pro.md)
+[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-enterprise-opsworks.md) | [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-enterprise-opsworks.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-autoscalinggroup.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-autoscalinggroup.md)
+
+<table>
+	<tr>
+		<th>Solodev Lite</th>
+		<th>Solodev Pro</th>
+		<th>Solodev Enterprise (Opsworks)</th>
+		<th>Solodev Enterprise (AutoScalingGroup)</th>
+	</tr>
+	<tr>
+		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-lite.md)</td>
+		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-pro.md)</td>
+		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-enterprise-opsworks.md)</td>
+		<td>[![single-server](pages/images/launch-lite.png)](pages/solodev-cms-enterprise-autoscaling.md)</td>
+	</tr>
+	<tr>
+		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md)</td>
+		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-pro.md)</td>
+		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-enterprise-opsworks.md)</td>
+		<td>[![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-enterprise-autoscaling.md)</td>
+	</tr>
+</table>
 
 Launch Option                         | Description
 --------------------------------------|--------------------------------------
