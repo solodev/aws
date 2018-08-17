@@ -9,8 +9,8 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 <table>
 	<tr>
 		<td width="150"><img src="pages/images/launch-solodev-lite.png" style="max-width: 50px;"/></td>
-		<td><strong><span style="font-size: 1.8rem; border-bottom: 1px solid #ececec;">Solodev Lite</span></strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
-		<td><a href="pages/solodev-cms-lite.md">Details</a></td>
+		<td><strong>Solodev Lite</strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
+		<td><a href="pages/solodev-cms-lite.md"><button>Details</button></a></td>
 	</tr>
 	<tr>
 		<td width="150"><img src="pages/images/launch-solodev-pro.png" style="max-width: 50px;"/></td>
