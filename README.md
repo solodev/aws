@@ -9,7 +9,7 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 <table>
 	<tr>
 		<td width="150"><img src="pages/images/launch-solodev-lite.png" style="max-width: 50px;"/></td>
-		<td><strong>Solodev Lite</strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
+		<td><strong>Solodev Lite</strong><hr />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server</td>
 		<td><a href="pages/solodev-cms-lite.md">Details</a></td>
 	</tr>
 	<tr>
