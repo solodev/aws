@@ -21,8 +21,8 @@ Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
 
-Feature | ------- Lite ------ | ------- Pro ------- | --- Enterprise --- 
-------- |:-------------------:|:-------------------:|:-------------------:
+Feature | Lite | Pro | Enterprise  
+------- |:----:|:---:|:------------:
 Web Studio                         | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
 Modules + Forms                    | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
 Users + Permissions                | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
