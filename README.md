@@ -21,21 +21,21 @@ Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
 
-Feature |    Lite    | Pro | Enterprise (Opsworks) | Enterprise (AutoScalingGroup)   
-------- |:----:|:---:|:---------------------:|:---------------------:
-Web Studio                         | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Modules + Forms                    | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Users + Permissions                | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Scheduling + Versioning            | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Landing Pages + Blog + Experiments | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Staging Server                     |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-External Database                  |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Load Balancing                     |                                                 |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Workflows                          |                                                 |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Integrations                       |                                                 |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Tasks                              |                                                 |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-Theme Builder                      |                                                 |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
-API Access                         |                                                 |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Feature | ------- Lite ------ | ------- Pro ------- | --- Enterprise --- 
+------- |:-------------------:|:-------------------:|:-------------------:
+Web Studio                         | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Modules + Forms                    | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Users + Permissions                | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Scheduling + Versioning            | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Landing Pages + Blog + Experiments | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Staging Server                     |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+External Database                  |                                                 | ![feature-included](pages/images/checkmark.png) | ![feature-included](pages/images/checkmark.png)
+Load Balancing                     |                                                 |                                                 | ![feature-included](pages/images/checkmark.png)
+Workflows                          |                                                 |                                                 | ![feature-included](pages/images/checkmark.png)
+Integrations                       |                                                 |                                                 | ![feature-included](pages/images/checkmark.png)
+Tasks                              |                                                 |                                                 | ![feature-included](pages/images/checkmark.png)
+Theme Builder                      |                                                 |                                                 | ![feature-included](pages/images/checkmark.png)
+API Access                         |                                                 |                                                 | ![feature-included](pages/images/checkmark.png)
 
 ## Case Studies
 We’re launching our partners to new worlds of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
