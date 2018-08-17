@@ -11,12 +11,18 @@ Focus on your business, not the technological infrastructure that powers it. Sol
 Solodev deployed on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (Amazon VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (Amazon EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Auto Scaling](http://docs.aws.amazon.com/autoscaling/latest/userguide/WhatIsAutoScaling.html), [Elastic Load Balancing (Application Load Balancer)](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [Amazon Relational Database Service (Amazon RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon ElastiCache](http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/WhatIs.html), [Amazon Elastic File System (Amazon EFS)](http://docs.aws.amazon.com/efs/latest/ug/whatisefs.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Certificate Manager (Amazon ACM)](http://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html)  with [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 
 ## Launch Options
-For AWS users, see the two available launch options below: 
 
 Solodev WXP Lite | Solodev WXP Pro | Solodev WXP Enterprise (Opsworks) | Solodev WXP Enterprise (AutoScalingGroup)                                                                      
 :---------------:|:---------------:|:---------------------------------:|:---------------------------------:
 [![single-server](pages/images/launch-wxp-lite.png)](pages/solodev-cms-lite.md) | [![single-server](pages/images/launch-wxp-pro.png)](pages/solodev-cms-lite.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-opsworks.png)](pages/solodev-cms-enterprise-cluster.md) | [![high-availability-cluster](pages/images/launch-wxp-enterprise-autoscale.png)](pages/solodev-cms-enterprise-cluster.md)
 [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![single-server-launch](pages/images/launch-btn.png)](pages/solodev-cms-lite.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md) | [![ha-cluster-launch](pages/images/launch-btn2.png)](pages/solodev-cms-enterprise-cluster.md)
+
+Launch Option                         | Description
+--------------------------------------|--------------------------------------
+Solodev Lite                          | Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server
+Solodev Pro                           | Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database
+Solodev Enterprise (Opsworks)         | Solodev CMS on a high-available / redundant architecture managed by AWS Opsworks.
+Solodev Enterprise (AutoScalingGroup) | Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda.
 
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
@@ -28,14 +34,14 @@ Modules + Forms                    | ![feature-included](pages/images/features-c
 Users + Permissions                | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
 Scheduling + Versioning            | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
 Landing Pages + Blog + Experiments | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
-Staging Server                     |                                                 | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
-External Database                  |                                                 | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
-Load Balancing                     |                                                 |                                                 | ![feature-included](pages/images/features-checkmark.png)
-Workflows                          |                                                 |                                                 | ![feature-included](pages/images/features-checkmark.png)
-Integrations                       |                                                 |                                                 | ![feature-included](pages/images/features-checkmark.png)
-Tasks                              |                                                 |                                                 | ![feature-included](pages/images/features-checkmark.png)
-Theme Builder                      |                                                 |                                                 | ![feature-included](pages/images/features-checkmark.png)
-API Access                         |                                                 |                                                 | ![feature-included](pages/images/features-checkmark.png)
+Staging Server                     |                                                          | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
+External Database                  |                                                          | ![feature-included](pages/images/features-checkmark.png) | ![feature-included](pages/images/features-checkmark.png)
+Load Balancing                     |                                                          |                                                          | ![feature-included](pages/images/features-checkmark.png)
+Workflows                          |                                                          |                                                          | ![feature-included](pages/images/features-checkmark.png)
+Integrations                       |                                                          |                                                          | ![feature-included](pages/images/features-checkmark.png)
+Tasks                              |                                                          |                                                          | ![feature-included](pages/images/features-checkmark.png)
+Theme Builder                      |                                                          |                                                          | ![feature-included](pages/images/features-checkmark.png)
+API Access                         |                                                          |                                                          | ![feature-included](pages/images/features-checkmark.png)
 
 ## Case Studies
 We’re launching our partners to new worlds of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
