@@ -2,12 +2,9 @@
 With one platform for creators, developers, and marketers, the Solodev CMS Lite puts you at the center of your digital universe and gives you total design freedom. Build space-age web applications with minimal code, all powered by the AWS Cloud.
 
 ## Overview
-Focus on your business, not the technological infrastructure that powers it. Solodev and AWS free you up to focus on your customers, not the heavy lifting of racking, stacking and powering servers. Solodev CMS Lite is built on top of Amazon's rock solid EC2 infrastructure.
-
 Solodev deployed on AWS uses a set of YAML templates for [Amazon Elastic Compute Cloud (Amazon EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html).
 
-*AWS Reference Architectures*
-![AWS Diagram](http://via.placeholder.com/898x450)
+![AWS Diagram](images/solodev-aws-architecture-lite.png)
 
 ## Prerequisites
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
