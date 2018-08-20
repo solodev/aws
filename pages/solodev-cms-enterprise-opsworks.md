@@ -18,9 +18,9 @@ You can launch this CloudFormation stack, using your account, in the following A
 
 <table>
 	<tr>
-		<td width="150">AWS Region Code</td>
-		<td>Name</td>
-		<td width="175" align="center">Launch</td>
+		<td width="299">AWS Region Code</td>
+		<td width="299">Name</td>
+		<td width="299" align="center">Launch</td>
 	</tr>
 	<tr>
 		<td>us-east-1</td>
