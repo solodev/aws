@@ -1,4 +1,5 @@
 <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&t=event&ec=webpage&ea=pageview&cs=github&cm=social&cn=pagename1"/>
+[![Analytics](https://ga-beacon.appspot.com/UA-3849724-1/welcome-page)](https://github.com/igrigorik/ga-beacon)
 
 <img src="pages/images/solodev-hero.jpg"/>
 
