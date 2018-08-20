@@ -85,7 +85,7 @@ The above links will launch the "Select Template" wizard with the master templat
 		<td> The name of your stack (set to "solodev-cms" by default)</td>
 	</tr>
 	<tr>
-		<td colspan="2"><strong>Network Configuration</strong></td>
+		<td colspan="2"><br /><strong>Network Configuration</strong><br /></td>
 	</tr>
 	<tr>
 		<td>Which VPC should this be deployed to?</td>
@@ -104,7 +104,7 @@ The above links will launch the "Select Template" wizard with the master templat
 		<td>SSL cert for HTTPS listener that matches the FQDN above</td>
 	</tr>
 	<tr>
-		<td colspan="2"><strong>Server Configuration</strong></td>
+		<td colspan="2"><br /><strong>Server Configuration</strong><br /></td>
 	</tr>
 	<tr>
 		<td>InstanceType</td>
