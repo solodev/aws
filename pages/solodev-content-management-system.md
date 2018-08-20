@@ -2,7 +2,6 @@
 Create websites beyond your imagination.
 Evolve your web experiences and create stunning, feature-rich websites.
 
-
 ## Web Studio
 Convert your web pages into reusable templates without your designs getting lost in space. Use drop zones to dynamically add content to your templates and speed up development time. 
 * Build a custom template library that reflects your design 
