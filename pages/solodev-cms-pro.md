@@ -1,60 +1,72 @@
-﻿# Solodev CMS Lite
-With one platform for creators, developers, and marketers, the Solodev CMS Lite puts you at the center of your digital universe and gives you total design freedom. Build space-age web applications with minimal code, all powered by the AWS Cloud.
+﻿# Solodev CMS Pro
+With one platform for creators, developers, and marketers, the Solodev CMS Pro puts you at the center of your digital universe and gives you total design freedom. Build space-age web applications with minimal code, all powered by the AWS Cloud.
 
 ## Overview
-Solodev deployed on AWS uses a set of YAML templates for [Amazon Elastic Compute Cloud (Amazon EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html).
+Solodev Pro on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Relational Database Service (RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) and deployed by [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 
 ![AWS Diagram](images/solodev-aws-architecture-pro.png)
 
 ## Prerequisites
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+To launch Solodev Pro, you must first "Subscribe" to Solodev on the AWS Marketplace
+1. Visit <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">Solodev on the AWS Marketplace</a>
+2. Click on the "Continue to Subscribe" button
+3. Click the "Subscribe" button
+3. Return to this page and use one of the "Launch" buttons below
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Please note that both a <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a> and an <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a> must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
 
 ## Steps to Run
 To launch the entire stack and deploy on AWS, click on one of the ***Launch Stack*** links below.
 
 You can launch this CloudFormation stack, using your account, in the following AWS Regions:
 
-AWS Region Code             | Name                       | Launch 
-----------------------------|----------------------------|:-------------------------:
-us-east-1                   | US East (N. Virginia)      | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml)
-us-east-2                   | US East (Ohio)             | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-us-west-1                   | US West (N. California)    | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-us-west-2                   | US West (Oregon)           | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-eu-west-1                   | EU (Ireland)               | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-eu-west-2                   | EU (London)                | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-eu-central-1                | EU (Frankfurt)             | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-ca-central-1                | Canada (Central)           | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-
-The above links will launch the "Select Template" wizard with the master template preselected. Click "Next" to customize the launch parameters.
-
-## Parameters
-![Parameters](images/parameters-single.jpg)
-
-Parameter                             | Description
-------------------------------------- | ---------------------
-Stack name     				          | The name of your stack
-**Network Configuration**     		  | 
-Which VPC should this be deployed to? | Choose which VPC the Application should be deployed to
-Subnets     						  | Choose at least two public subnets for this application
-**Server Configuration**              | 
-InstanceType                          | EC2 instance type
-KeyName                               | Name of an existing EC2 KeyPair to enable SSH access to the instances
-HostVolumeSize                        | Size in GB of root volume
-SSHFrom                               | Lockdown SSH access to the bastion host
-**Solodev Configuration**             | 
-AMI                                   | Build AMI - Please leave this blank unless told otherwise
-
-## FAQs
-1. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-2. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-3. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<table>
+	<tr>
+		<th width="299">AWS Region Code</td>
+		<th width="299">Name</td>
+		<th width="299" align="center">Launch</td>
+	</tr>
+	<tr>
+		<td>us-east-1</td>
+		<td>US East (N. Virginia)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>us-east-2</td>
+		<td>US East (Ohio)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>us-west-1</td>
+		<td>US West (N. California)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>us-west-2</td>
+		<td>US West (Oregon)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>eu-west-1</td>
+		<td>EU (Ireland)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>eu-west-2</td>
+		<td>EU (London)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>eu-central-1</td>
+		<td>EU (Frankfurt)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+	<tr>
+		<td>eu-central-2</td>
+		<td>Canada (Central)</td>
+		<td align="center"><em>Coming Soon</em></td>
+	</tr>
+</table>
 
 ---
 © 2018 Solodev. All rights reserved. 
