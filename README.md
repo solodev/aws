@@ -5,7 +5,7 @@ Solodev is the world's first on-demand web experience platform created by develo
 ## Launch Options
 <table>
 	<tr>
-		<td width="150">><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-solodev-lite.png" /></a></td>
+		<td width="150"><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-solodev-lite.png" /></a></td>
 		<td><strong>Solodev Lite</strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><a href="#">Quick Launch (us-east-1)</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
