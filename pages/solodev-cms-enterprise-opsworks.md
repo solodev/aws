@@ -89,7 +89,7 @@ The above links will launch the "Select Template" wizard with the master templat
 	</tr>
 	<tr>
 		<td>Which VPC should this be deployed to?</td>
-		<td>Select which VPC the Application should be deployed to</td>
+		<td>Select which VPC the application should be deployed to</td>
 	</tr>
 	<tr>
 		<td>Subnets</td>
