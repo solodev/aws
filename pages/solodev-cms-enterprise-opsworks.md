@@ -25,42 +25,42 @@ You can launch this CloudFormation stack, using your account, in the following A
 	<tr>
 		<td>us-east-1</td>
 		<td>US East (N. Virginia)</td>
-		<td><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-east-2</td>
 		<td>US East (Ohio)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-west-1</td>
 		<td>US West (N. California)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-west-2</td>
 		<td>US West (Oregon)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-west-1</td>
 		<td>EU (Ireland)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-west-2</td>
 		<td>EU (London)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-central-1</td>
 		<td>EU (Frankfurt)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-central-2</td>
 		<td>Canada (Central)</td>
-		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 </table>
 
