@@ -16,16 +16,53 @@ To launch the entire stack and deploy on AWS, click on one of the ***Launch Stac
 
 You can launch this CloudFormation stack, using your account, in the following AWS Regions:
 
-AWS Region Code             | Name                       | Launch 
-----------------------------|----------------------------|:-------------------------:
-us-east-1                   | US East (N. Virginia)      | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml)
-us-east-2                   | US East (Ohio)             | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-us-west-1                   | US West (N. California)    | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-us-west-2                   | US West (Oregon)           | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-eu-west-1                   | EU (Ireland)               | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-eu-west-2                   | EU (London)                | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-eu-central-1                | EU (Frankfurt)             | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
-ca-central-1                | Canada (Central)           | [![cloudformation-launch-stack](images/cloudformation-launch-stack.png)](#)
+<table>
+	<tr>
+		<td width="150">AWS Region Code</td>
+		<td>Name</td>
+		<td width="175" align="center">Launch</td>
+	</tr>
+	<tr>
+		<td>us-east-1</td>
+		<td>US East (N. Virginia)</td>
+		<td><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>us-east-2</td>
+		<td>US East (Ohio)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>us-west-1</td>
+		<td>US West (N. California)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>us-west-2</td>
+		<td>US West (Oregon)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>eu-west-1</td>
+		<td>EU (Ireland)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>eu-west-2</td>
+		<td>EU (London)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>eu-central-1</td>
+		<td>EU (Frankfurt)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+	<tr>
+		<td>eu-central-2</td>
+		<td>Canada (Central)</td>
+		<td><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
+	</tr>
+</table>
 
 The above links will launch the "Select Template" wizard with the master template preselected. Click "Next" to customize the launch parameters.
 
@@ -61,5 +98,20 @@ AMI                                   | Build AMI - Please leave this blank unle
 3. Lorem ipsum dolor sit amet?
 > Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+## Support
+Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
+
+* Submit online support tickets
+* Access dedicated support team members who know your business
+* Benefit from in-depth product training from the Solodev Team
+* Benefit from in-depth product training from the Solodev Team
+
+---
+© 2018 Solodev. All rights reserved. 
+
+Errors or corrections? Email us at help@solodev.com.
+
+---
+Visit [solodev.com](https://www.solodev.com/) to learn more.
 
 
