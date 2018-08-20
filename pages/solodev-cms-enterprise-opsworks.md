@@ -13,7 +13,7 @@ To launch Solodev Enterprise (OpsWorks), you must first "Subscribe" to Solodev o
 3. Click the "Subscribe" button
 3. Return to this page and use one of the "Launch" buttons below
 
-Please note that both a <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a> and an <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a>must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
+Please note that both a <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a> and an <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a> must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
 
 ## Steps to Run
 To launch the entire stack and deploy on AWS, click on one of the ***Launch Stack*** links below.
