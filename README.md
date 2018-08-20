@@ -12,7 +12,7 @@ To use Quick Launch links, first subscribe to <a href="https://aws.amazon.com/ma
 	</tr>
 	<tr>
 		<td width="150"><a href="pages/solodev-cms-pro.md"><img src="pages/images/launch-solodev-pro.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <em>Coming Soon</em></td>
+		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database</td>
 		<td width="175" align="center"><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a><br /></td>
 	</tr>
 	<tr>
@@ -22,7 +22,7 @@ To use Quick Launch links, first subscribe to <a href="https://aws.amazon.com/ma
 	</tr>
 	<tr>
 		<td width="150"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/launch-solodev-enterprise-autoscaling.png" style="max-width: 50px;"/></a></td>
-		<td><strong><a href="pages/solodev-cms-enterprise-autoscaling.md">Solodev Enterprise (AutoScalingGroup)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda<br /><br /><strong>Quick Launch:</strong> <em>Coming Soon</em></td>
+		<td><strong><a href="pages/solodev-cms-enterprise-autoscaling.md">Solodev Enterprise (AutoScalingGroup)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda</td>
 		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 </table>
