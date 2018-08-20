@@ -115,7 +115,7 @@ The above links will launch the "Select Template" wizard with the master templat
 		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
 	</tr>
 	<tr>
-		<td colspan="2"><strong>Solodev Configuration</strong></td>
+		<td colspan="2"><br /><strong>Solodev Configuration</strong><br /></td>
 	</tr>
 	<tr>
 		<td>AdminUser</td>
