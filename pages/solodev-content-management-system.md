@@ -1,5 +1,5 @@
 ﻿# Content Management System
-Create websites beyond your imagination
+Create websites beyond your imagination.
 Evolve your web experiences and create stunning, feature-rich websites.
 
 
