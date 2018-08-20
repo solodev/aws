@@ -125,31 +125,6 @@ Solodev deployed on AWS uses a set of YAML templates including [Amazon Virtual P
 ## Case Studies
 We’re launching our partners to new worlds of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
 
-<table>
-	<tr>
-		<th><a href="https://www.solodev.com/resources/case-studies/oneblood.stml">OneBlood</a></th>
-		<th><a href="https://www.solodev.com/resources/case-studies/seminole-county-public-schools.stml">Seminole County Public Schools</a></th>
-		<th><a href="https://www.solodev.com/resources/case-studies/miami-beach-visitor-and-convention-authority.stml">Miami Beach VCA</a></th>
-	</tr>
-	<tr>
-		<td><a href="https://www.solodev.com/resources/case-studies/oneblood.stml"><img src="pages/images/case-study-oneblood.jpg" /></a></td>
-		<td><a href="https://www.solodev.com/resources/case-studies/seminole-county-public-schools.stml"><img src="pages/images/case-study-scps.jpg" /></a></td>
-		<td><a href="https://www.solodev.com/resources/case-studies/miami-beach-visitor-and-convention-authority.stml"><img src="pages/images/case-study-mbvca.jpg" /></a></td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<th><a href="https://www.solodev.com/resources/case-studies/cnl-financial.stml">CNL Financial</a></th>
-		<th><a href="https://www.solodev.com/resources/case-studies/bridgeway-community-church.stml">Bridgeway Community Church</a></th>
-		<th><a href="https://www.solodev.com/resources/case-studies/florida-dairy-farmers.stml">Florida Dairy Farmers</a></th>
-	</tr>
-	<tr>
-		<td><a href="https://www.solodev.com/resources/case-studies/cnl-financial.stml"><img src="pages/images/case-study-cnl.jpg" /></a></td>
-		<td><a href="https://www.solodev.com/resources/case-studies/bridgeway-community-church.stml"><img src="pages/images/case-study-bcc.jpg" /></a></td>
-		<td><a href="https://www.solodev.com/resources/case-studies/florida-dairy-farmers.stml"><img src="pages/images/case-study-fdf.jpg" /></a></td>
-	</tr>
-</table>
-
 ## Support
 Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
 
