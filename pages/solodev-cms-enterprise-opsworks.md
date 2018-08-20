@@ -1,5 +1,5 @@
 ﻿# Solodev Enterprise (OpsWorks)
-Launch your website to the next level with the proven power of the Solodev and the AWS Cloud. Now you can focus on managing your website – and not your hardware. With AWS, there’s no need to spend time and money maintaining servers and data centers. Deploy Solodev CMS Enterprise (Opsworks) to build a website that can handle virtually any amount of traffic, leverage mutliple geographic data centers for unmatched redundancy, and securely host your web experience.
+Launch your website to the next level with the proven power of the Solodev and the AWS Cloud. Now you can focus on managing your website – and not your hardware. With AWS, there’s no need to spend time and money maintaining servers and data centers. Deploy Solodev Enterprise (Opsworks) to build a website that can handle virtually any amount of traffic, leverage mutliple geographic data centers for unmatched redundancy, and securely host your web experience.
 
 ## Overview
 Solodev Enterprise (OpsWorks) on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Elastic Load Balancing (Application Load Balancer)](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [Amazon Relational Database Service (RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon Elastic File System (EFS)](http://docs.aws.amazon.com/efs/latest/ug/whatisefs.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Certificate Manager (ACM)](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html), [Amazon Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) managed by [Amazon OpsWorks](https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html) and deployed by [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
@@ -7,9 +7,16 @@ Solodev Enterprise (OpsWorks) on AWS uses a set of YAML templates including [Ama
 ![AWS Diagram](images/solodev-aws-architecture-enterprise-opsworks.png)
 
 ## Prerequisites
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+To launch Solodev Enterprise (OpsWorks), you must first "Subscribe" to Solodev on the AWS Marketplace
+1. Visit <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">Solodev on the AWS Marketplace</a>
+2. Click on the "Continue to Subscribe" button
+3. Click the "Subscribe" button
+3. Return to this page and use one of the "Launch" buttons below
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The following is a list of prerequisites need to launch a stack. Please note that each of the following must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
+1. VPC
+2. EC2 Key Pair
+3. SSL/TLS Certificates
 
 ## Steps to Run
 To launch the entire stack and deploy on AWS, click on one of the ***Launch Stack*** links below.
@@ -25,7 +32,7 @@ You can launch this CloudFormation stack, using your account, in the following A
 	<tr>
 		<td>us-east-1</td>
 		<td>US East (N. Virginia)</td>
-		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-aws&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml"><img src="images/cloudformation-launch-stack.png" /></td>
+		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-east-2</td>
@@ -64,7 +71,7 @@ You can launch this CloudFormation stack, using your account, in the following A
 	</tr>
 </table>
 
-The above links will launch the "Select Template" wizard with the master template preselected. Click "Next" to customize the launch parameters.
+The above links will launch the "Select Template" wizard with the master template preselected. Click the "Next" button to customize the launch parameters.
 
 ## Parameters
 ![Parameters](images/parameters-cluster.jpg)
