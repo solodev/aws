@@ -14,8 +14,8 @@ To launch Solodev Enterprise (OpsWorks), you must first "Subscribe" to Solodev o
 3. Return to this page and use one of the "Launch" buttons below
 
 The following is a list of prerequisites need to launch a stack. Please note that each of the following must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
-1. VPC
-2. EC2 Key Pair
+1. <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a>
+2. <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a>
 
 ## Steps to Run
 To launch the entire stack and deploy on AWS, click on one of the ***Launch Stack*** links below.
@@ -75,24 +75,74 @@ The above links will launch the "Select Template" wizard with the master templat
 ## Parameters
 ![Parameters](images/parameters-cluster.jpg)
 
-Parameter                             | Description
-------------------------------------- | ---------------------
-Stack name     				          | The name of your stack
-**Network Configuration**     		  | 
-Which VPC should this be deployed to? | Choose which VPC the Application should be deployed to
-Subnets     						  | Choose at least two public subnets for this application
-(Optional) FQDN                       | URL for app. FQDN must be pointed to CNAME of ALB.
-(Optional) CertficateArn              | SSL cert for HTTPS listener that matches the FQDN above
-**Server Configuration**              | 
-InstanceType                          | EC2 instance type
-KeyName                               | Name of an existing EC2 KeyPair to enable SSH access to the instances
-**Solodev Configuration**             | 
-AdminUser                             | CMS Admin User
-AdminPassword                         | The solodev admin account password
-DatabasePassword                      | The database root account password
-DevOpsFlavor                          | Which DevOps tools would you like to use to manage auto scaling
-RestoreBucketName                     | Name of bucket containing files for restore
-AMI                                   | Build AMI - Please leave this blank unless told otherwise
+<table>
+	<tr>
+		<th width="200">Parameter</th>
+		<th width="698">Description</th>
+	</tr>
+	<tr>
+		<td>Stack name</td>
+		<td> The name of your stack (set to "solodev-cms" by default)</td>
+	</tr>
+	<tr>
+		<td colspan="2">**Network Configuration**</td>
+	</tr>
+	<tr>
+		<td>Which VPC should this be deployed to?</td>
+		<td>Select which VPC the Application should be deployed to</td>
+	</tr>
+	<tr>
+		<td>Subnets</td>
+		<td>Select at least two public subnets for this application</td>
+	</tr>
+	<tr>
+		<td>(Optional) FQDN</td>
+		<td>URL for app. FQDN must be pointed to CNAME of ALB.</td>
+	</tr>
+	<tr>
+		<td>(Optional) CertficateArn</td>
+		<td>SSL cert for HTTPS listener that matches the FQDN above</td>
+	</tr>
+	<tr>
+		<td colspan="2">**Server Configuration**</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>InstanceType</td>
+		<td>EC2 instance type</td>
+	</tr>
+	<tr>
+		<td>KeyName </td>
+		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
+	</tr>
+	<tr>
+		<td colspan="2">**Solodev Configuration**</td>
+	</tr>
+	<tr>
+		<td>AdminUser</td>
+		<td>Admin user name in order to log in to the CMS after installation</td>
+	</tr>
+	<tr>
+		<td>AdminPassword</td>
+		<td>Admin account password in order to log in to the CMS after installation</td>
+	</tr>
+	<tr>
+		<td>DatabasePassword</td>
+		<td>The database root account password</td>
+	</tr>
+	<tr>
+		<td>DevOpsFlavor</td>
+		<td>Which DevOps tools would you like to use to manage auto scaling (set to "Opsworks" by default)</td>
+	</tr>
+	<tr>
+		<td>RestoreBucketName</td>
+		<td>Name of the S3 bucket containing files for restore</td>
+	</tr>
+	<tr>
+		<td>AMI</td>
+		<td>Build AMI - Please leave this blank unless told otherwise</td>
+	</tr>
+</table>
 
 ## FAQs
 1. Lorem ipsum dolor sit amet?
