@@ -1,4 +1,6 @@
-![Solodev Web Experience Platform](pages/images/solodev-hero.jpg)
+<img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&t=event&ec=webpage&ea=pageview&cs=github&cm=social&cn=pagename1"/>
+
+<img src="pages/images/solodev-hero.jpg"/>
 
 Solodev is the world's first on-demand web experience platform created by developers for developers. It empowers organizations to create amazing websites with unparalleled levels of security, scalability and total design freedom. Featuring enterprise web content and experience management, Solodev was developed to truly support the custom design requirements that customers demand - beautiful, engaging websites without compromise.
 
