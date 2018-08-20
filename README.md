@@ -1,4 +1,4 @@
-<img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=pageview&cs=github&cm=email&cn=062413&cm1=″ />
+<img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=pageview&cs=github&cm=email&cn=062413&cm1=" />
 
 <img src="pages/images/solodev-hero.jpg"/>
 
