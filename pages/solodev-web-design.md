@@ -22,15 +22,6 @@ This article will show you how to display more content while providing an improv
 
 [View full tutorial](https://www.solodev.com/blog/web-design/adding-a-load-more-button-to-your-content.stml)
 
-## FAQs
-1. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-2. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-3. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 © 2018 Solodev. All rights reserved. 
