@@ -38,3 +38,11 @@ All data stored in your Solodev instance can be accessed outside of Solodev via 
 
 3. Lorem ipsum dolor sit amet?
 > Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+---
+© 2018 Solodev. All rights reserved. 
+
+Errors or corrections? Email us at help@solodev.com.
+
+---
+Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=pro&cs=github&cm=github&cn=github_cms" />
