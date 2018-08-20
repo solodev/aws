@@ -139,4 +139,4 @@ Houston, we have no problems – because Solodev has your back at every step, wi
 Errors or corrections? Email us at help@solodev.com.
 
 ---
-Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws_main&ea=pageview&cs=github&cm=github&cn=github_aws" />
+Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=main&cs=github&cm=github&cn=github_aws" />
