@@ -6,7 +6,7 @@ Solodev is the world's first on-demand web experience platform created by develo
 <table>
 	<tr>
 		<td width="150"><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-solodev-lite.png" /></a></td>
-		<td><strong>Solodev Lite</strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><a href="#">Quick Launch (us-east-1)*</a></td>
+		<td><strong>Solodev Lite</strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">Quick Launch (us-east-1)*</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
@@ -16,7 +16,7 @@ Solodev is the world's first on-demand web experience platform created by develo
 	</tr>
 	<tr>
 		<td width="150"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/launch-solodev-enterprise-opsworks.png" style="max-width: 50px;"/></a></td>
-		<td><strong>Solodev Enterprise (OpsWorks)</strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><a href="#">Quick Launch (us-east-1)*</a></td>
+		<td><strong>Solodev Enterprise (OpsWorks)</strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">Quick Launch (us-east-1)*</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
