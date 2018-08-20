@@ -77,15 +77,15 @@ The above links will launch the "Select Template" wizard with the master templat
 
 <table>
 	<tr>
-		<th width="200">Parameter</th>
-		<th width="698">Description</th>
+		<th width="300">Parameter</th>
+		<th width="598">Description</th>
 	</tr>
 	<tr>
 		<td>Stack name</td>
 		<td> The name of your stack (set to "solodev-cms" by default)</td>
 	</tr>
 	<tr>
-		<td colspan="2"><br /><strong>Network Configuration</strong><br /></td>
+		<td colspan="2"><strong>Network Configuration</strong></td>
 	</tr>
 	<tr>
 		<td>Which VPC should this be deployed to?</td>
@@ -104,7 +104,7 @@ The above links will launch the "Select Template" wizard with the master templat
 		<td>SSL cert for HTTPS listener that matches the FQDN above</td>
 	</tr>
 	<tr>
-		<td colspan="2"><br /><strong>Server Configuration</strong><br /></td>
+		<td colspan="2"><strong>Server Configuration</strong></td>
 	</tr>
 	<tr>
 		<td>InstanceType</td>
@@ -115,7 +115,7 @@ The above links will launch the "Select Template" wizard with the master templat
 		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
 	</tr>
 	<tr>
-		<td colspan="2"><br /><strong>Solodev Configuration</strong><br /></td>
+		<td colspan="2"><strong>Solodev Configuration</strong></td>
 	</tr>
 	<tr>
 		<td>AdminUser</td>
