@@ -13,9 +13,7 @@ To launch Solodev Enterprise (OpsWorks), you must first "Subscribe" to Solodev o
 3. Click the "Subscribe" button
 3. Return to this page and use one of the "Launch" buttons below
 
-The following is a list of prerequisites need to launch a stack. Please note that each of the following must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
-1. <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a>
-2. <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a>
+Please note that both a <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a> and an <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a> must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
 
 ## Steps to Run
 To launch the entire stack and deploy on AWS, click on one of the ***Launch Stack*** links below.
@@ -142,16 +140,6 @@ The above links will launch the "Select Template" wizard with the master templat
 		<td>Build AMI - Please leave this blank unless told otherwise</td>
 	</tr>
 </table>
-
-## FAQs
-1. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-2. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-3. Lorem ipsum dolor sit amet?
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Support
 Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
