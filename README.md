@@ -5,27 +5,27 @@ Solodev is the world's first on-demand web experience platform created by develo
 ## Launch Options
 <table>
 	<tr>
-		<td width="150"><img src="pages/images/launch-solodev-lite.png" /></td>
+		<td width="150">><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-solodev-lite.png" /></a></td>
 		<td><strong>Solodev Lite</strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><a href="#">Quick Launch (us-east-1)</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
-		<td width="150"><img src="pages/images/launch-solodev-pro.png" /></td>
+		<td width="150"><a href="pages/solodev-cms-pro.md"><img src="pages/images/launch-solodev-pro.png" /></a></td>
 		<td><strong>Solodev Pro</strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><a href="#">Quick Launch (us-east-1)</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a><br /></td>
 	</tr>
 	<tr>
-		<td width="150"><img src="pages/images/launch-solodev-enterprise-opsworks.png" style="max-width: 50px;"/></td>
+		<td width="150"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/launch-solodev-enterprise-opsworks.png" style="max-width: 50px;"/></a></td>
 		<td><strong>Solodev Enterprise (Opsworks)</strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS Opsworks<br /><br /><a href="#">Quick Launch (us-east-1)</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
-		<td width="150"><img src="pages/images/launch-solodev-enterprise-autoscaling.png" style="max-width: 50px;"/></td>
+		<td width="150"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/launch-solodev-enterprise-autoscaling.png" style="max-width: 50px;"/></a></td>
 		<td><strong>Solodev Enterprise (AutoScalingGroup)</strong><br />Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda<br /><br /><a href="#">Quick Launch (us-east-1)</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 </table>
-<em>* Quick Launch will deploy to US East (N. Virginia)/us-east-1</em>
+<em>* Quick Launch requires that you subscribe to <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">Solodev on AWS Marketplace</a></em>
 
 ## Features
 Enterprise Website Software, Hosting & Support. It's all here in the cloud.
