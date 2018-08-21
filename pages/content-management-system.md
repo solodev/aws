@@ -16,6 +16,12 @@ Evolve your web experiences and create stunning, feature-rich websites.
 	<td>All data stored in your Solodev instance can be accessed outside of Solodev via API – giving you the power to build third party applications and mobile apps fed with data from your website. 
     </td>	
 	</tr>
+	<tr>
+	<td><img src="https://www.solodev.com/_/images/pageBuilderMagellan.jpg"></td>
+	<td><img srce="https://www.solodev.com/_/images/multiSite.jpg"></td>
+	<td><img src="https://www.solodev.com/_/images/API_Studio.png"></td>
+	</tr>
+	
 </table>
 
 ## Web Studio
