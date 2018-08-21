@@ -1,6 +1,5 @@
 ﻿# Web Design Tutorials
 Free code examples, responsive design ideas, content management tips, social media applications and more.
-
 <table>
 	<tr>
 		<th width="25%">What to Do When Google Still Shows Old Website Pages in a Search Result</td>
