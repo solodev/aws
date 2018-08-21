@@ -25,8 +25,7 @@ Evolve your web experiences and create stunning, feature-rich websites.
 		- Create content and web pages without the need to code
 		- Leverage templates to build websites at warp speed
 		- Launch your website in minutes, not months</td>	
-	<td>![Solodev Web Studio](https://www.solodev.com/_/images/pageBuilderMagellan.jpg)
-	</td>	
+	<td><img width="448" src="https://www.solodev.com/_/images/pageBuilderMagellan.jpg"></td>	
 	</tr>
 </table>
 
