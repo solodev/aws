@@ -24,8 +24,8 @@ Evolve your web experiences and create stunning, feature-rich websites.
 	
 </table>
 
-<p align="center">### Thousands of users and growing. Create your account in seconds and start building.</p>
-<img align="center" src="https://www.solodev.com/_/images/g2-crowd-summer.png "G2 High Performer">
+<p align="center">**Thousands of users and growing. Create your account in seconds and start building.**</p>
+<img align="center" src="https://www.solodev.com/_/images/g2-crowd-summer.png">
 
 ## Professional Web Design Features
 <table>
