@@ -25,6 +25,7 @@ Evolve your web experiences and create stunning, feature-rich websites.
 </table>
 
 ## Professional Web Design Features
+Website Content Management System, Secure Cloud Hosting & 24/7 U.S. Based Support
 <table>
 <tr>
 	<th width="225">SEO</td>
