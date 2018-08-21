@@ -13,9 +13,9 @@ Free code examples, responsive design ideas, content management tips, social med
       <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/load-more-img.jpg"></td>
     </tr>
     <tr>
-      <td><a align="center" href="https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-to-your-website.stml">View Tutorial</a></td>
-      <td><a align="center" href="https://www.solodev.com/blog/web-design/how-to-add-transparent-overlays-to-images-with-css.stml">View Tutorial</a></td>
-      <td><a align="center" href="https://www.solodev.com/blog/web-design/adding-a-load-more-button-to-your-content.stml">View Tutorial</a></td>
+      <td align="center"><a href="https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-to-your-website.stml">View Tutorial</a></td>
+      <td align="center"><a href="https://www.solodev.com/blog/web-design/how-to-add-transparent-overlays-to-images-with-css.stml">View Tutorial</a></td>
+      <td align="center"><a href="https://www.solodev.com/blog/web-design/adding-a-load-more-button-to-your-content.stml">View Tutorial</a></td>
     </tr>
   </tbody>
 </table>
