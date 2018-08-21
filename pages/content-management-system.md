@@ -19,10 +19,7 @@ Evolve your web experiences and create stunning, feature-rich websites.
 </table>
 
 ## Web Studio
-* Build a custom template library that reflects your design
-* Create content and web pages without the need to code
-* Leverage templates to build websites at warp speed
-* Launch your website in minutes, not months
+Build a custom template library that reflects your design | Create content and web pages without the need to code | Leverage templates to build websites at warp speed | Launch your website in minutes, not months
 
 ![Solodev Web Studio](https://www.solodev.com/_/images/pageBuilderMagellan.jpg)
 
