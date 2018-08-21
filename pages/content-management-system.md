@@ -18,34 +18,11 @@ Evolve your web experiences and create stunning, feature-rich websites.
 	</tr>
 	<tr>
 	<td><img src="https://www.solodev.com/_/images/pageBuilderMagellan.jpg"></td>
-	<td><img srce="https://www.solodev.com/_/images/multiSite.jpg"></td>
+	<td><img src="https://www.solodev.com/_/images/multiSite.jpg"></td>
 	<td><img src="https://www.solodev.com/_/images/API_Studio.png"></td>
 	</tr>
 	
 </table>
-
-## Web Studio
-Build a custom template library that reflects your design | Create content and web pages without the need to code | Leverage templates to build websites at warp speed | Launch your website in minutes, not months
-
-![Solodev Web Studio](https://www.solodev.com/_/images/pageBuilderMagellan.jpg)
-
-
-
-## Module Studio
-* Craft the web applications of your dreams without code
-* Easily manage your modules to keep your website fresh
-* Utilize a schema  builder to create fields for your modules
-* Customize the design of your modules without any limits
- 
- ![Solodev Module Studio](https://www.solodev.com/_/images/multiSite.jpg)
-
-## API Studio
-* Build third party applications using data from your website
-* Leverage the Solodev API to create data-rich mobile apps
-* Query the API to pull entire web pages or a single blog post
-* Solodev dynamically prints API queries for all content
-
-![Solodev API Studio](https://www.solodev.com/_/images/API_Studio.png)
 
 
 ## Professional Web Design Features
