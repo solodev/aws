@@ -3,9 +3,9 @@ Free code examples, responsive design ideas, content management tips, social med
 <table>
   <tbody>
     <tr>
-      <td align="center">Adding an Infinite Client Logo Carousel to your Website</td>
-      <td align="center">How to Add Transparent Overlays to Images with CSS</td>
-      <td align="center">Adding a Load More Button to your Content</td>
+      <th align="center">Adding an Infinite Client Logo Carousel to your Website</td>
+      <th align="center">How to Add Transparent Overlays to Images with CSS</td>
+      <th align="center">Adding a Load More Button to your Content</td>
     </tr>
     <tr>
       <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/logo-slider.jpg"></td>
