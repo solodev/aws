@@ -23,7 +23,10 @@ Evolve your web experiences and create stunning, feature-rich websites.
 * Build a custom template library that reflects your design
 * Create content and web pages without the need to code
 * Leverage templates to build websites at warp speed
-* Launch your website in minutes, not months</td>	
+* Launch your website in minutes, not months
+
+
+
 
 
 ## Module Studio
