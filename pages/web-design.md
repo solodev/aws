@@ -8,7 +8,7 @@ Free code examples, responsive design ideas, content management tips, social med
       <td>Adding a Load More Button to your Content</td>
     </tr>
     <tr>
-      <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/client-logo-slider-featured.jpg"></td>
+      <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/logo-slider.jpg"></td>
       <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/transparent-color-overlays.jpg"></td>
       <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/load-more-img.jpg"></td>
     </tr>
