@@ -54,23 +54,23 @@ Evolve your web experiences and create stunning, feature-rich websites.
 	<th width="225">Permissions</td>
 </tr>
 <tr>
-	<td>Rank higher with built-in tools that create search engine optimized pages and content</td>	
-	<td>Track user and site performance within Solodev with an integrated analytics dashboard</td>	
-	<td>Create a custom assignment system that produces tasks and increases your team's productivity</td>	
-	<td>Get full control over who is allowed to access resources across your website deployment</td>
+	<td align ="center">Rank higher with built-in tools that create search engine optimized pages and content</td>	
+	<td align ="center">Track user and site performance within Solodev with an integrated analytics dashboard</td>	
+	<td align ="center">Create a custom assignment system that produces tasks and increases your team's productivity</td>	
+	<td align ="center">Get full control over who is allowed to access resources across your website deployment</td>
 </tr>
 <tr>
-    <td>Staging</td>
-	<td>Scheduling</td>
-	<td>Archiving</td>
-	<td>Mapping</td>
+    <th>Staging</th>
+	<th>Scheduling</th>
+	<th>Archiving</th>
+	<th>Mapping</th>
 </tr>
 <tr>
-	<td>With live and staged versions of your website, choose whether to stage or publish new edits</td>
-	<td>You can schedule content publishing and even automatically expire content at a future date</td>
-	<td>Maintain all previous versions of content with Solodev's integrated "Archive History" system</td>
-	<td>Leverage real-time mapping and geo-location technology to build custom mapping apps</td>
-	</tr>
+	<td align ="center">With live and staged versions of your website, choose whether to stage or publish new edits</td>
+	<td align ="center">You can schedule content publishing and even automatically expire content at a future date</td>
+	<td align ="center">Maintain all previous versions of content with Solodev's integrated "Archive History" system</td>
+	<td align ="center">Leverage real-time mapping and geo-location technology to build custom mapping apps</td>
+</tr>
 	</table>
 
 ## FAQs
