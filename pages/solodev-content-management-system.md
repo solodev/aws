@@ -3,7 +3,7 @@ Create websites beyond your imagination.
 Evolve your web experiences and create stunning, feature-rich websites.
 
 
-<table>
+<table border="0">
 	<tr>
 		<th width="299">Web Studio</td>
 		<th width="299">Module Studio</td>
