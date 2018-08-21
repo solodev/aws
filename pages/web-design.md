@@ -46,8 +46,9 @@ Free code examples, responsive design ideas, content management tips, social med
 		<td>A fundamental necessity is being able to trust the accuracy of your Google Analytics data. One way to help achieve this is to filter out your internal traffic to prevent the skewing of your metrics.</td>
 		<td><a href="https://www.solodev.com/blog/digital-marketing/how-to-filter-ip-addresses-in-google-analytics.stml">View Tutorial</a></td>
 	</tr>
-	
-	
+
+
+<a href="https://www.solodev.com/blog/">View all tutorials</a>	
 	
 </table>
 
