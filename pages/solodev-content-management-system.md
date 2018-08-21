@@ -3,7 +3,7 @@ Create websites beyond your imagination.
 Evolve your web experiences and create stunning, feature-rich websites.
 
 
-<table border="0">
+<table>
 	<tr>
 		<th width="299">Web Studio</td>
 		<th width="299">Module Studio</td>
@@ -43,6 +43,35 @@ Evolve your web experiences and create stunning, feature-rich websites.
 * Solodev dynamically prints API queries for all content
 
 ![Solodev API Studio](https://www.solodev.com/_/images/API_Studio.png)
+
+
+## Professional Web Design Features
+<table>
+<tr>
+	<th width="225">SEO</td>
+	<th width="225">Analytics</td>
+	<th width="225">Workflow</td>
+	<th width="225">Permissions</td>
+</tr>
+<tr>
+	<td>Rank higher with built-in tools that create search engine optimized pages and content</td>	
+	<td>Track user and site performance within Solodev with an integrated analytics dashboard</td>	
+	<td>Create a custom assignment system that produces tasks and increases your team's productivity</td>	
+	<td>Get full control over who is allowed to access resources across your website deployment</td>
+</tr>
+<tr>
+    <td>Staging</td>
+	<td>Scheduling</td>
+	<td>Archiving</td>
+	<td>Mapping</td>
+</tr>
+<tr>
+	<td>With live and staged versions of your website, choose whether to stage or publish new edits</td>
+	<td>You can schedule content publishing and even automatically expire content at a future date</td>
+	<td>Maintain all previous versions of content with Solodev's integrated "Archive History" system</td>
+	<td>Leverage real-time mapping and geo-location technology to build custom mapping apps</td>
+	</tr>
+	</table>
 
 ## FAQs
 1. Lorem ipsum dolor sit amet?
