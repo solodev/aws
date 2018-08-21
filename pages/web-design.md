@@ -1,5 +1,27 @@
-﻿# Web Design Tutorials
+﻿# Popular Web Design Tutorials
 Free code examples, responsive design ideas, content management tips, social media applications and more.
+<table>
+  <tbody>
+    <tr>
+      <td>Adding an Infinite Client Logo Carousel to your Website</td>
+      <td>How to Add Transparent Overlays to Images with CSS</td>
+      <td>Adding a Load More Button to your Content</td>
+    </tr>
+    <tr>
+      <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/client-logo-slider-featured.jpg"></td>
+      <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/transparent-color-overlays.jpg"></td>
+      <td><img src="https://www.solodev.com/core/fileparse.php/131/urlt/load-more-img.jpg"></td>
+    </tr>
+    <tr>
+      <td><a align="center" href="https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-to-your-website.stml">View Tutorial</a></td>
+      <td><a align="center" href="https://www.solodev.com/blog/web-design/how-to-add-transparent-overlays-to-images-with-css.stml">View Tutorial</a></td>
+      <td><a align="center" href="https://www.solodev.com/blog/web-design/adding-a-load-more-button-to-your-content.stml">View Tutorial</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+## More Web Design Tutorials
 <table>
 	<tbody>
 	<tr>
