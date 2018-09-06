@@ -12,7 +12,7 @@ To use Quick Launch links, first subscribe to <a href="https://aws.amazon.com/ma
 	</tr>
 	<tr>
 		<td width="150"><a href="pages/solodev-cms-pro.md"><img src="pages/images/launch-solodev-pro.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database</td>
+		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a></td>
 		<td width="175" align="center"><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a><br /></td>
 	</tr>
 	<tr>
