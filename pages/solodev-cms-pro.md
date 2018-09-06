@@ -29,42 +29,42 @@ You can launch this CloudFormation stack, using your account, in the following A
 	<tr>
 		<td>us-east-1</td>
 		<td>US East (N. Virginia)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-east-2</td>
 		<td>US East (Ohio)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-west-1</td>
 		<td>US West (N. California)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>us-west-2</td>
 		<td>US West (Oregon)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-west-1</td>
 		<td>EU (Ireland)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-west-2</td>
 		<td>EU (London)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-central-1</td>
 		<td>EU (Frankfurt)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 	<tr>
 		<td>eu-central-2</td>
 		<td>Canada (Central)</td>
-		<td align="center"><em>Coming Soon</em></td>
+		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 </table>
 
