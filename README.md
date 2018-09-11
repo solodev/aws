@@ -1,40 +1,42 @@
 <img src="pages/images/Solodev_Git_Header.jpg"/>
 
-<b>Explore the outer limits of your digital universe with Solodev, The Web Experience Platform.</b> Solodev is the CMS for AWS. Built from the group up to integrate with the full stack of AWS cloud technologies, Solodev WXP lets you build, launch, and manage amazing websites and engaging digital experiences - all with advanced, enterprise-level functionality and unparalleled levels of scalability and security.
+<b>Explore the outer limits of your digital universe with Solodev, The Web Experience Platform.</b> Solodev is the CMS for AWS. Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev WXP lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
 
-Whether you're a designer, developer, or marketer, Solodev gives you the best of all worlds. 
+Whether you’re a designer, developer, or marketer, Solodev gives you the best of all worlds. You can take full command of your code or laser-focus on your content; the choice is yours. Create beautiful websites with total design freedom and responsive HTML. Develop powerful portals and data-driven applications with API integrations and custom PHP. Launch your most ambitious ideas with Solodev – available on-demand in the AWS Marketplace.
 
 ## Launch Options
 To use Quick Launch links, first subscribe to <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">Solodev on the AWS Marketplace</a>
 <table>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-lite.md">Solodev WXP - Lite Edition</a></strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a><br />
+		<td><strong><a href="pages/solodev-cms-lite.md">Solodev WXP - Lite Edition</a></strong><br />The perfect launch pad for small development projects, Solodev Lite Edition gives you optimal control in a streamlined package. Pack your ship with best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server. Includes YAML templates for Amazon VPC, Amazon EC2, Amazon S3, and Amazon CloudWatch.<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a><br />
 		<a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-pro.md"><img src="pages/images/Solodev_Git_Diagram_Pro.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-pro.md">Solodev WXP - Professional Edition</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a><br /><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-pro.md">Solodev WXP - Professional Edition</a></strong><br />Take command of your digital universe with the power of Solodev CMS, PHP, Apache, and Mongo on a single web server with an external RDS MySQL database. Includes YAML templates for Amazon VPC, Amazon EC2, Amazon RDS, Amazon S3, Amazon CloudWatch, Amazon CloudFront, Amazon Route 53, Amazon WAF and all deployed by AWS CloudFormation.<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a><br /><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/Solodev_Git_Diagram_OpsWorks.png"/></a></td>
-		<td><strong><a href="pages/solodev-cms-enterprise-opsworks.md">Solodev WXP - Enterprise Edition (OpsWorks)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">(us-east-1)</a><br /><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-enterprise-opsworks.md">Solodev WXP - Enterprise Edition (OpsWorks)</a></strong><br />Climb aboard the Solodev Enterprise and warp ahead with a highly available, fully redundant architecture managed by AWS OpsWorks. Includes YMAL templates for Amazon VPC, Amazon EC2, Amazon Elastic Load Balancing, Amazon RDS, Amazon EFS, Amazon S3, Amazon CloudWatch, Amazon CloudFront, Amazon Route 53, Amazon ACM, Amazon WAF, all managed by Amazon OpsWorks, deployed by AWS CloudFormation.<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">(us-east-1)</a><br /><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/Solodev_Git_Diagram_AutoScaling.png"/></a></td>
-		<td><strong><a href="pages/solodev-cms-enterprise-autoscaling.md">Solodev WXP - Enterprise Edition (Auto Scaling Group)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda<a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-enterprise-autoscaling.md">Solodev WXP - Enterprise Edition (Auto Scaling Group)</a></strong><br />Expand your digital universe with the highest availability and redundancy managed by a combination of AWS Auto Scaling and Lambda. Includes YMAL templates for Amazon VPC, Amazon EC2, Amazon Elastic Load Balancing, Amazon RDS, Amazon EFS, Amazon S3, Amazon CloudWatch, Amazon CloudFront, Amazon Route 53, Amazon ACM, Amazon WAF managed by Amazon Auto Scaling and deployed by AWS CloudFormation.<a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 </table>
 
 ## Solodev: The CMS for AWS
-Focus on your business, not the technological infrastructure that powers it. Solodev and AWS free you up to focus on your customers, not the heavy lifting of racking, stacking and powering servers.
+Built for the cloud – and built for the future. With Solodev and AWS, the possibilities are limitless. Now you can focus on your business, and not the infrastructure that powers it. Scale your capacity in seconds, and meet unexpected spikes in traffic without any downtime. Solodev and AWS give you the freedom to focus on your customers, and leave behind the heavy lifting of racking, stacking, and managing servers. 
+
+As an AWS Advanced Technology Partner, Solodev delivers best-of-breed features, service, and support with rigorous competencies in key areas such as education, government, and marketing & commerce.
 
 Solodev on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Auto Scaling](http://docs.aws.amazon.com/autoscaling/latest/userguide/WhatIsAutoScaling.html), [Amazon Elastic Load Balancing (Application Load Balancer)](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [Amazon Relational Database Service (RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon Elastic File System (EFS)](http://docs.aws.amazon.com/efs/latest/ug/whatisefs.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Certificate Manager (ACM)](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html), [Amazon Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) with [Amazon OpsWorks](https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html) and [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 
 <img src="pages/images/Solodev_Git_AWS_Competencies.jpg"/>
 
 ## Features
-Enterprise Website Software, Hosting & Support. It's all here in the cloud.
+Enterprise-class software. World-class cloud hosting. Self-service and human support that’s out of this world. It’s all here with Solodev.
 
 <table>
 	<tr>
@@ -124,19 +126,19 @@ Enterprise Website Software, Hosting & Support. It's all here in the cloud.
 </table>
 
 ## Case Studies
-We’re launching our partners to new worlds of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
+We’re launching our partners to new galaxies of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
 
 <img src="pages/images/Solodev_Git_Badges.jpg"/>
 
 ## Support
-Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
+Houston, we have no problems… because Solodev has your back at every step, with 24x7x365 U.S. based human support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you’ve got the best team on the ground to get you to the stars. 
 
 * Submit online support tickets
 * Access dedicated support team members who know your business
 * Benefit from in-depth product training from the Solodev Team
 
 <img src="pages/images/Solodev_Git_Support.jpg"/>
-© 2018 Solodev. All rights reserved. 
+© ® 2018 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
 
