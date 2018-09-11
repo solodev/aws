@@ -6,24 +6,21 @@ Solodev is the world's first on-demand web experience platform created by develo
 To use Quick Launch links, first subscribe to <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">Solodev on the AWS Marketplace</a>
 <table>
 	<tr>
-		<td width="150"><a href="pages/solodev-cms-lite.md"><img src="pages/images/launch-solodev-lite.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-lite.md">Solodev Lite</a></strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a></td>
-		<td width="175" align="center"><a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-lite.md">Solodev Lite</a></strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a>
+		<a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
-		<td width="150"><a href="pages/solodev-cms-pro.md"><img src="pages/images/launch-solodev-pro.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a></td>
-		<td width="175" align="center"><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a><br /></td>
+		<td width="50%"><a href="pages/solodev-cms-pro.md"><img src="pages/images/Solodev_Git_Diagram_Pro.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
-		<td width="150"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/launch-solodev-enterprise-opsworks.png" style="max-width: 50px;"/></a></td>
-		<td><strong><a href="pages/solodev-cms-enterprise-opsworks.md">Solodev Enterprise (OpsWorks)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">(us-east-1)</a></td>
-		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td width="50%"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/Solodev_Git_Diagram_OpsWorks.png"/></a></td>
+		<td><strong><a href="pages/solodev-cms-enterprise-opsworks.md">Solodev Enterprise (OpsWorks)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">(us-east-1)</a><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
-		<td width="150"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/launch-solodev-enterprise-autoscaling.png" style="max-width: 50px;"/></a></td>
-		<td><strong><a href="pages/solodev-cms-enterprise-autoscaling.md">Solodev Enterprise (AutoScalingGroup)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda</td>
-		<td width="175" align="center"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td width="50%"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/Solodev_Git_Diagram_AutoScaling.png"/></a></td>
+		<td><strong><a href="pages/solodev-cms-enterprise-autoscaling.md">Solodev Enterprise (AutoScalingGroup)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by a combination AWS AutoScaling and Lambda<a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 </table>
 
