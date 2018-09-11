@@ -125,6 +125,7 @@ Enterprise Website Software, Hosting & Support. It's all here in the cloud.
 We’re launching our partners to new worlds of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
 
 <img src="pages/images/Solodev_Git_Badges.jpg"/>
+
 ## Support
 Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
 
