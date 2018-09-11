@@ -7,16 +7,16 @@ To use Quick Launch links, first subscribe to <a href="https://aws.amazon.com/ma
 <table>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-lite.md">Solodev Lite</a></strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a>
+		<td><strong><a href="pages/solodev-cms-lite.md">Solodev Lite</a></strong><br />Solodev CMS, PHP, Apache, MySQL, and Mongo on a single web server<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a><br />
 		<a href="pages/solodev-cms-lite.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-pro.md"><img src="pages/images/Solodev_Git_Diagram_Pro.png" /></a></td>
-		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-pro.md">Solodev Pro</a></strong><br />Solodev CMS, PHP, Apache, Mongo on a single web server with an external RDS MySQL database<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml">(us-east-1)</a><br /><a href="pages/solodev-cms-pro.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/Solodev_Git_Diagram_OpsWorks.png"/></a></td>
-		<td><strong><a href="pages/solodev-cms-enterprise-opsworks.md">Solodev Enterprise (OpsWorks)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">(us-east-1)</a><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
+		<td><strong><a href="pages/solodev-cms-enterprise-opsworks.md">Solodev Enterprise (OpsWorks)</a></strong><br />Solodev CMS on a high-available / redundant architecture managed by AWS OpsWorks<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-cluster.yaml">(us-east-1)</a><br /><a href="pages/solodev-cms-enterprise-opsworks.md"><img src="pages/images/details-btn.png" /></a></td>
 	</tr>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-enterprise-autoscaling.md"><img src="pages/images/Solodev_Git_Diagram_AutoScaling.png"/></a></td>
@@ -128,9 +128,8 @@ Houston, we have no problems – because Solodev has your back at every step, wi
 * Submit online support tickets
 * Access dedicated support team members who know your business
 * Benefit from in-depth product training from the Solodev Team
-* Benefit from in-depth product training from the Solodev Team
 
----
+<img src="pages/images/Solodev_Git_Support.jpg"/>
 © 2018 Solodev. All rights reserved. 
 
 Errors or corrections? Email us at help@solodev.com.
