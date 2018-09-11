@@ -1,4 +1,4 @@
-<img src="pages/images/solodev-aws-marketplace-hero.jpg"/>
+<img src="pages/images/Solodev_Git_Header.jpg"/>
 
 <b>Explore the outer limits of your digital universe with Solodev, The Web Experience Platform.</b> Solodev is the CMS for AWS. Built from the group up to integrate with the full stack of AWS cloud technologies, Solodev WXP lets you build, launch, and manage amazing websites and engaging digital experiences - all with advanced, enterprise-level functionality and unparalleled levels of scalability and security.
 
