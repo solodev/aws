@@ -1,4 +1,4 @@
-<img src="pages/images/Solodev_Git_Header.jpg"/>
+<a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="pages/images/Solodev_Git_Header.jpg"/></a>
 
 <b>Explore the outer limits of your digital universe with Solodev, The Web Experience Platform.</b> Solodev is the CMS for AWS. Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev WXP lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
 
@@ -33,7 +33,7 @@ Built for the cloud – and built for the future. With Solodev and AWS, the poss
 As an <a href="https://aws.amazon.com/partners/technology/">AWS Advanced Technology Partner</a>, Solodev delivers best-of-breed features, service, and support with rigorous competencies in key areas such as education, government, and marketing & commerce.
 
 
-<img src="pages/images/Solodev_Git_AWS_Competencies.jpg"/>
+<a href="https://aws.amazon.com/partners/technology/"><img src="pages/images/Solodev_Git_AWS_Competencies.jpg"/></a>
 
 ## Features
 Enterprise-class software. World-class cloud hosting. Self-service and human support that’s out of this world. It’s all here with Solodev.
@@ -128,7 +128,7 @@ Enterprise-class software. World-class cloud hosting. Self-service and human sup
 ## Case Studies
 We’re launching our partners to new galaxies of digital success. Read how in our mission case studies. [View all case studies...](https://www.solodev.com/resources/case-studies/)
 
-<img src="pages/images/Solodev_Git_Badges.jpg"/>
+<a href="https://www.solodev.com/resources/case-studies/"><img src="pages/images/Solodev_Git_Badges.jpg"/></a>
 
 ## Support
 Houston, we have no problems… because Solodev has your back at every step, with 24x7x365 U.S. based human support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you’ve got the best team on the ground to get you to the stars. 
@@ -137,7 +137,7 @@ Houston, we have no problems… because Solodev has your back at every step, wit
 * Access dedicated support team members who know your business
 * Benefit from in-depth product training from the Solodev Team
 
-<img src="pages/images/Solodev_Git_Support.jpg"/>
+<a href="https://www.solodev.com/product/support.stml"><img src="pages/images/Solodev_Git_Support.jpg"/></a>
 © ® 2018 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
