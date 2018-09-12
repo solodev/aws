@@ -4,7 +4,7 @@
 
 Whether you’re a designer, developer, or marketer, Solodev gives you the best of all worlds. You can take full command of your code or laser-focus on your content; the choice is yours. Create beautiful websites with total design freedom and responsive HTML. Develop powerful portals and data-driven applications with API integrations and custom PHP. Launch your most ambitious ideas with Solodev – available on-demand in the AWS Marketplace.
 
-#Pre-Flight Checklist
+## Pre-Flight Checklist
 Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via the AWS Marketplace or fill out the Enterprise Activation Form on our website. You can also call 1-800-859-7656 for enterprise pricing, and we can activate your account for you.
 
 <table>
