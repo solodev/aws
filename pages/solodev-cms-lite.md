@@ -15,8 +15,10 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 		<td><a href="pages/solodev-cms-lite.md"><img src="images/Solodev_Git_Diagram_Lite.png" /></a></td>
 	</tr>
 </table>
-<b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.
-<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.
+<b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.<br/>
+
+<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/>
+
 <b>4. Launch your CloudFormation stack:</b> You can launch your CloudFormation stack using your AWS accountin the following AWS Regions:
 
 <table>
