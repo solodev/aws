@@ -1,24 +1,23 @@
-﻿# Solodev CMS Lite
-With one platform for creators, developers, and marketers, the Solodev CMS Lite puts you at the center of your digital universe and gives you total design freedom. Build space-age web applications with minimal code, all powered by the AWS Cloud.
+﻿# Solodev CMS - Lite Edition
+The perfect launch pad for small development projects, Solodev CMS - Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the AWS Marketplace.
 
 ## Overview
-Solodev Lite on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), and [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
+Solodev CMS - Lite Edition on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), and [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
 
 ![AWS Diagram](images/solodev-cms-aws-architecture-lite.jpg)
 
-## Prerequisites
-To launch Solodev Lite, you must first "Subscribe" to Solodev on the AWS Marketplace
-1. Visit <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">Solodev on the AWS Marketplace</a>
-2. Click on the "Continue to Subscribe" button
-3. Click the "Subscribe" button
-3. Return to this page and use one of the "Launch" buttons below
-
-Please note that both a <a href="https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:">VPC</a> and an <a href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName">EC2 Key Pair</a> must be configured within the region you intend to launch the stack. If the following items are already created, you can skip to launch.
-
-## Steps to Run
-To launch the entire stack and deploy on AWS, click on one of the ***Launch Stack*** links below.
-
-You can launch this CloudFormation stack, using your account, in the following AWS Regions:
+## How to Launch Solodev CMS
+Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
+<b>1. Choose your subscription model:</b> Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the Enterprise Activation Form on our website. You can also call 1-800-859-7656 for enterprise pricing, and we can activate your account for you. Click one of the buttons below to begin: 
+<table>
+	<tr>
+		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
+		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
+	</tr>
+</table>
+<b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.
+<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.
+<b>4. Launch your CloudFormation stack:</b> You can launch your CloudFormation stack using your AWS accountin the following AWS Regions:
 
 <table>
 	<tr>
@@ -67,10 +66,10 @@ You can launch this CloudFormation stack, using your account, in the following A
 		<td align="center"><a href="#"><img src="images/cloudformation-launch-stack.png" /></td>
 	</tr>
 </table>
-
-The above links will launch the "Select Template" wizard with the master template preselected. Click the "Next" button to customize the launch parameters.
+The above links will launch the "Select Template" wizard, with the master template preselected. Click the "Next" button to customize the launch parameters.
 
 ## Parameters
+The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 ![Parameters](images/parameters-single.jpg)
 
 <table>
@@ -125,10 +124,11 @@ The above links will launch the "Select Template" wizard with the master templat
 Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
 
 * Submit online support tickets
-* Access dedicated support team members who know your business
-* Benefit from in-depth product training from the Solodev Team
-* Benefit from in-depth product training from the Solodev Team
+* Access over 600 pages of online documentation and tutorials
+* Recieve dedicated human support from team members who know your business
+* Get in-depth training from Certified Solodev Engineers.
 
+<a href="https://www.solodev.com/product/support.stml"><img src="pages/images/Solodev_Git_Support.jpg"/></a>
 ---
 © 2018 Solodev. All rights reserved. 
 
