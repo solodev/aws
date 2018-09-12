@@ -11,8 +11,8 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 <b>1. Choose your subscription model:</b> Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the Enterprise Activation Form on our website. You can also call 1-800-859-7656 for enterprise pricing, and we can activate your account for you. Click one of the buttons below to begin: 
 <table>
 	<tr>
-		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
-		<td><a href="pages/solodev-cms-lite.md"><img src="pages/images/Solodev_Git_Diagram_Lite.png" /></a></td>
+		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="images/Solodev_Git_Diagram_Lite.png" /></a></td>
+		<td><a href="pages/solodev-cms-lite.md"><img src="images/Solodev_Git_Diagram_Lite.png" /></a></td>
 	</tr>
 </table>
 <b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.
@@ -128,7 +128,7 @@ Houston, we have no problems – because Solodev has your back at every step, wi
 * Recieve dedicated human support from team members who know your business
 * Get in-depth training from Certified Solodev Engineers.
 
-<a href="https://www.solodev.com/product/support.stml"><img src="pages/images/Solodev_Git_Support.jpg"/></a>
+<a href="https://www.solodev.com/product/support.stml"><img src="images/Solodev_Git_Support.jpg"/></a>
 ---
 © 2018 Solodev. All rights reserved. 
 
