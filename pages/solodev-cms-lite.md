@@ -8,7 +8,7 @@ Solodev CMS - Lite Edition on AWS uses a set of YAML templates including [Amazon
 
 ## How to Launch Solodev CMS
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
-<b>1. Choose your subscription model:</b> Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the Enterprise Activation Form on our website. You can also call 1-800-859-7656 for enterprise pricing, and we can activate your account for you. Click one of the buttons below to begin: 
+<b>1. Choose your subscription model:</b> Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the <a href="#">Enterprise Activation Form</a> on our website. You can also call <a href="1.800.859.7656">1-800-859-7656</a> for enterprise pricing, and we can activate your account for you. Click one of the buttons below to begin: 
 <table>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="images/Solodev_Git_Diagram_Lite.png" /></a></td>
@@ -16,7 +16,7 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 	</tr>
 </table><br />
 <b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.<br/><br />
-<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
+<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
 <b>4. Launch your CloudFormation stack:</b> You can launch your CloudFormation stack using your AWS accountin the following AWS Regions:<br/><br/>
 
 <table>
