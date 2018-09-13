@@ -1,4 +1,5 @@
 ﻿<img src="images/Solodev_Lite_Header.jpg"/>
+
 # Solodev CMS - Lite Edition
 The perfect launch pad for small development projects, Solodev CMS - Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the AWS Marketplace.
 
