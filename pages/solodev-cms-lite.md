@@ -1,4 +1,5 @@
-﻿# Solodev CMS - Lite Edition
+﻿<img src="images/Solodev_Lite_Header.jpg"/>
+# Solodev CMS - Lite Edition
 The perfect launch pad for small development projects, Solodev CMS - Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the AWS Marketplace.
 
 ## Overview
@@ -70,7 +71,7 @@ The above links will launch the "Select Template" wizard, with the master templa
 
 ## Parameters
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
-![Parameters](images/parameters-single.jpg)
+![Parameters](images/Solodev_Lite_Parameters.jpg)
 
 <table>
 	<tr>
