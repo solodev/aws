@@ -1,4 +1,6 @@
-﻿# Solodev CMS - Professional Edition
+﻿<img src="images/Solodev_Lite_Header.jpg"/>
+
+# Solodev CMS - Professional Edition
 Take command of your digital universe! Get the full power of the galaxy's most advanced CMS and take your design and development to the stars and beyond. Professional Edition includes Solodev CMS, PHP, Apache, and Mongo on a single web server with an external RDS MySQL database – and available on-demand in the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a>.
 
 ## Overview
