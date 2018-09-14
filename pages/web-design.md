@@ -79,4 +79,4 @@ Free code examples, responsive design ideas, content management tips, social med
 Errors or corrections? Email us at help@solodev.com.
 
 ---
-Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=pro&cs=github&cm=github&cn=github_web_design" />
+Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=web_design&cs=github&cm=github&cn=github_web_design" />
