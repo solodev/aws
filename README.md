@@ -1,6 +1,6 @@
 <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="pages/images/Solodev_Git_Header.jpg"/></a>
 
-<b>Explore the outer limits of your digital universe with Solodev, The Web Experience Platform.</b> Solodev is the CMS for AWS. Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev CMS lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
+<b>Explore the outer limits of your digital universe with Solodev: the CMS for AWS.</b> Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev CMS lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
 
 Whether you’re a designer, developer, or marketer, Solodev gives you the best of all worlds. You can take full command of your code or laser-focus on your content; the choice is yours. Create beautiful websites with total design freedom and responsive HTML. Develop powerful portals and data-driven applications with API integrations and custom PHP. Launch your most ambitious ideas with Solodev – available on-demand in the AWS Marketplace.
 
@@ -43,7 +43,7 @@ Built for the cloud – and built for the future. With Solodev and AWS, the poss
 As an <a href="https://aws.amazon.com/partners/technology/">AWS Advanced Technology Partner</a>, Solodev delivers best-of-breed features, service, and support with rigorous competencies in key areas such as education, government, and marketing & commerce.
 
 
-<a href="https://aws.amazon.com/partners/technology/"><img src="pages/images/Solodev_Git_AWS_Competencies.jpg"/></a>
+<a href="https://aws.amazon.com/partners/technology/"><img src="pages/images/AWS_Badges.jpg"/></a>
 
 ## Features
 Enterprise-class software. World-class cloud hosting. Self-service and human support that’s out of this world. It’s all here with Solodev.
