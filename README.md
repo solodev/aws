@@ -149,7 +149,7 @@ Houston, we have no problems… because Solodev has your back at every step, wit
 * Get in-depth training from Certified Solodev Engineers.
 
 <a href="https://www.solodev.com/product/support.stml"><img src="pages/images/Solodev_Git_Support.jpg"/></a>
-© ® 2018 Solodev. All rights reserved worldwide. And off planet. 
+© 2018 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
 
