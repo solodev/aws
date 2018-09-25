@@ -8,19 +8,29 @@ Solodev CMS - Enterprise Edition (OpsWorks) on AWS uses a set of YAML templates 
 
 ![AWS Diagram](images/Solodev_EE_OpsWorks_Architecture.jpg)
 
-## How to Launch Solodev CMS
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
-<b>1. Choose your subscription model:</b> Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the <a href="#">Enterprise Activation Form</a> on our website. You can also call <a href="1.800.859.7656">1-800-859-7656</a> for enterprise pricing, and we can activate your account for you. Click one of the buttons below to begin: 
+
+## Step 1: Subscribe on the AWS Marketplace
+
+Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
 		<td width="50%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/AWS_Button.jpg" /></a></td>
 		<td><a href="pages/solodev-cms-lite.md"><img src="images/Solodev_Button.jpg" /></a></td>
 	</tr>
 </table><br />
-<b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.<br/><br />
-<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
-<b>4. Launch your CloudFormation stack:</b> You can launch your CloudFormation stack using your AWS account in the following AWS Regions:<br/><br/>
+
+Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.
+
+## Step 2: Return to this Solodev Product Page
+Once you complete your subscription the AWS Marketplace, simply return to this Solodev Enterprise Edition (OpsWorks) product page.<br/><br />
+
+## Step 3: Configure Your VPC and EC2 Key Pair
+Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
+
+## Step 4: Launch your CloudFormation Stack
+Once you’ve configured your VPC and EC2 Key Pair, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
 
 <table>
 	<tr>
@@ -146,22 +156,28 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 </table>
 
 ## Support
-Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
+Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars. 
 
-* Submit online support tickets
-* Access over 600 pages of online documentation and tutorials
-* Receive dedicated human support from team members who know your business
-* Get in-depth training from Certified Solodev Engineers
-<a href="https://www.solodev.com/product/support.stml"><img src="images/Solodev_Git_Support.jpg"/></a>
+Solodev Customer Care Includes
+* 24x7x365 U.S. based human support
+* Online HelpDesk ticketing
+* Phone and email support
+* Live training courses
+* Over 600 pages of searchable documentation and tutorials
+
+To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
+
+<a href="https://www.solodev.com/product/support.stml"><img src="pages/images/Solodev_Git_Support.jpg"/></a>
 
 
----
-© 2018 Solodev. All rights reserved. 
+## Need Help?
+
+Solodev is a professionally managed, enterprise-class solution, and our team of certified engineers are here to support your success. While our self-serve options are easy to launch, you’ve always got a co-pilot at the helm. If you have any questions – or if you already have a Solodev license and need support with your AWS subscription – call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll help you get to the launchpad.
+
+
+© 2018 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
 
 ---
-Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=opsworks&cs=github&cm=github&cn=github_enterprise_opworks" />
-
-
-
+Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=main&cs=github&cm=github&cn=github_aws" />
