@@ -1,21 +1,12 @@
 <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="pages/images/Solodev_Git_Header.jpg"/></a>
 
-<b>Explore the outer limits of your digital universe with Solodev: the CMS for AWS.</b> Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev CMS lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
+<b>Explore the outer limits of your digital universe with Solodev: the CMS for AWS.</b> Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev CMS (Content Management System) lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
 
-Whether you’re a designer, developer, or marketer, Solodev gives you the best of all worlds. You can take full command of your code or laser-focus on your content; the choice is yours. Create beautiful websites with total design freedom and responsive HTML. Develop powerful portals and data-driven applications with API integrations and custom PHP. Launch your most ambitious ideas with Solodev – available on-demand in the AWS Marketplace.
+Whether you’re a designer, developer, or marketer, Solodev gives you the best of all worlds. Take full command of your code or laser-focus on your content; the choice is yours. Create beautiful websites with total design freedom and responsive HTML. Develop powerful portals and data-driven applications with API integrations and custom PHP. Launch your most ambitious ideas with Solodev – available on-demand with an AWS Marketplace subscription.
 
-## Pre-Flight Checklist
-Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the <a href="#">Enterprise Activation Form</a> on our website. You can also call <a href="tel:1.800.859.7656">1-800-859-7656</a> for enterprise pricing, and we can activate your account for you.
 
-<table>
-	<tr>
-		<td width="50%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="pages/images/AWS_Button.jpg" /></a></td>
-		<td><a href="pages/solodev-cms-lite.md"><img src="https://github.com/solodev/AWS-Launch-Pad/blob/master/pages/images/Solodev_Button.jpg" /></a></td>
-	</tr>
-</table>
-
-## Launch Options
-Mission Control, we have options. Choose from a range of Solodev CMS products that fit your needs and launch your instance in seconds.
+## Choose Your Solodev Stack
+Mission control, we have options! Choose from a range of Solodev CMS products that fit your needs – and launch your stack in seconds:
 <table>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages\images\Solodev_Lite_Thumnail.png" /></a></td>
@@ -37,16 +28,9 @@ Mission Control, we have options. Choose from a range of Solodev CMS products th
 	</tr>
 </table>
 
-## Solodev: The CMS for AWS
-Built for the cloud – and built for the future. With Solodev and AWS, the possibilities are limitless. Now you can focus on your business, and not the infrastructure that powers it. Scale your capacity in seconds, and meet unexpected spikes in traffic without any downtime. Solodev and AWS give you the freedom to focus on your customers, and leave behind the heavy lifting of racking, stacking, and managing servers. 
 
-As an <a href="https://aws.amazon.com/partners/technology/">AWS Advanced Technology Partner</a>, Solodev delivers best-of-breed features, service, and support with rigorous competencies in key areas such as education, government, and marketing & commerce.
-
-
-<a href="https://aws.amazon.com/partners/technology/"><img src="pages/images/AWS_Badges.jpg"/></a>
-
-## Features
-Enterprise-class software. World-class cloud hosting. Self-service and human support that’s out of this world. It’s all here with Solodev.
+## Compare Solodev Features
+Enterprise-class software. Best-of-breed capabilities. World-class cloud hosting. It’s all here – and it’s all yours – with Solodev. Compare features and choose the stack that’s right for you:
 
 <table>
 	<tr>
@@ -137,18 +121,36 @@ Enterprise-class software. World-class cloud hosting. Self-service and human sup
 
 <a href="https://www.solodev.com/resources/case-studies/"><img src="pages/images/Solodev_Git_Badges.jpg"/></a>
 
-## Case Studies
-We’re launching our partners to new galaxies of digital success. Read how in our [Mission Case Studies](https://www.solodev.com/resources/case-studies/)
+## Solodev: The CMS for AWS
+Built for the cloud – and built for the future. With Solodev and AWS, the possibilities are limitless. Now you can focus on your business, and not the infrastructure that powers it. Scale your capacity in seconds, and meet unexpected spikes in traffic without any downtime. Solodev and AWS give you the freedom to focus on your customers, and leave behind the heavy lifting of racking, stacking, and managing servers. And now, you can get it all with an AWS Marketplace subscription.
+
+As an <a href="https://aws.amazon.com/partners/technology/">AWS Advanced Technology Partner</a>, Solodev delivers best-of-breed features, service, and support with rigorous competencies in key areas such as education, government, and marketing & commerce.
+
+
+<a href="https://aws.amazon.com/partners/technology/"><img src="pages/images/AWS_Badges.jpg"/></a>
 
 ## Support
-Houston, we have no problems… because Solodev has your back at every step, with 24x7x365 U.S. based human support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you’ve got the best team on the ground to get you to the stars. 
+Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars. 
 
-* Submit online support tickets
-* Access over 600 pages of online documentation and tutorials
-* Recieve dedicated human support from team members who know your business
-* Get in-depth training from Certified Solodev Engineers.
+Solodev Customer Care Includes
+* 24x7x365 U.S. based human support
+* Online HelpDesk ticketing
+* Phone and email support
+* Live training courses
+* Over 600 pages of searchable documentation and tutorials
+
+To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
 
 <a href="https://www.solodev.com/product/support.stml"><img src="pages/images/Solodev_Git_Support.jpg"/></a>
+
+## Case Studies
+Solodev is reinventing the CMS market with our innovative solutions. That’s why we’ve been selected as the leader in the “High Performer” category of the G2 Crowd Grid for the last five consecutive quarters. We’re launching our partners to new galaxies of digital performance, and you can read how in our [Mission Case Studies](https://www.solodev.com/resources/case-studies/)
+
+## Need Help?
+
+Solodev is a professionally managed, enterprise-class solution, and our team of certified engineers are here to support your success. While our self-serve options are easy to launch, you’ve always got a co-pilot at the helm. If you have any questions – or if you already have a Solodev license and need support with your AWS subscription – call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll help you get to the launchpad.
+
+
 © 2018 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
