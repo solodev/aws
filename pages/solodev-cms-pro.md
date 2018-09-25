@@ -18,7 +18,7 @@ Solodev is a professionally managed, enterprise-class Content Management System 
 		<td width="70%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/9_AWS_Marketplace_Logo.jpg" /></a></td>
 		<td><a href="pages/solodev-cms-lite.md"><img src="images/9_Subscribe_Now_Button_Large.jpg" /></a></td>
 	</tr>
-</table><br />
+</table>
 
 
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
@@ -30,7 +30,7 @@ Once you complete your subscription the AWS Marketplace, simply return to this S
 Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
 
 ## Step 4: Launch your CloudFormation Stack
-Once you’ve configured your VPC and EC2 Key Pair, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
+Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
 
 <table>
 	<tr>
