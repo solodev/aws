@@ -158,12 +158,17 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 
 
 ## Support
-Houston, we have no problems – because Solodev has your back at every step, with 24x7x365 U.S. based support. From our world-class HelpDesk, email support, phone access, or face-to-face training sessions, you've got the best team in the business to help your mission succeed.
+Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars. 
 
-* Submit online support tickets
-* Access over 600 pages of online documentation and tutorials
-* Receive dedicated human support from team members who know your business
-* Get in-depth training from Certified Solodev Engineers
+Solodev Customer Care Includes
+* 24x7x365 U.S. based human support
+* Online HelpDesk ticketing
+* Phone and email support
+* Live training courses
+* Over 600 pages of searchable documentation and tutorials
+
+To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
+
 <a href="https://www.solodev.com/product/support.stml"><img src="images/Solodev_Git_Support.jpg"/></a>
 
 
@@ -178,5 +183,3 @@ Errors or corrections? Email us at help@solodev.com.
 
 ---
 Visit [solodev.com](https://www.solodev.com/) to learn more. <img src="https://www.google-analytics.com/collect?v=1&tid=UA-3849724-1&cid=1&t=event&ec=github_aws&ea=main&cs=github&cm=github&cn=github_aws" />
-
-
