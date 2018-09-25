@@ -23,7 +23,7 @@ Solodev is a professionally managed, enterprise-class Content Management System 
 </table><br />
 
 
-Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.
+Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
 ## Step 2: Return to this Solodev Product Page
 Once you complete your subscription the AWS Marketplace, simply return to this Solodev CMS - Lite Edition product page.<br/><br />
