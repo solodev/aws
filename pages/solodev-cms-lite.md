@@ -11,7 +11,10 @@ Solodev CMS - Lite Edition on AWS uses a set of YAML templates including [Amazon
 ## How to Launch Solodev CMS
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
-<b>1. Choose your subscription model:</b> Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev via <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a> or fill out the <a href="#">Enterprise Activation Form</a> on our website. You can also call <a href="1.800.859.7656">1-800-859-7656</a> for enterprise pricing, and we can activate your account for you. Click one of the buttons below to begin: 
+
+## Step 1: Subscribe on the AWS Marketplace
+
+Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
 		<td width="70%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/9_AWS_Marketplace_Logo.jpg" /></a></td>
@@ -19,9 +22,17 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 	</tr>
 </table><br />
 
-<b>2. Return to this page:</b> Once you complete your subscription in either the AWS Marketplace or via the Solodev Enterprise Activation Form (or by phone), simply return to this page.<br/><br />
-<b>3. Configure your VPC and EC2 Key Pair:</b> Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
-<b>4. Launch your CloudFormation stack:</b> You can launch your CloudFormation stack using your AWS account in the following AWS Regions:<br/><br/>
+
+Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.
+
+## Step 2: Return to this Solodev Product Page
+Once you complete your subscription the AWS Marketplace, simply return to this Solodev Enterprise Edition (OpsWorks) product page.<br/><br />
+
+## Step 3: Configure Your VPC and EC2 Key Pair
+Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
+
+## Step 4: Launch your CloudFormation Stack
+Once you’ve configured your VPC and EC2 Key Pair, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
 
 <table>
 	<tr>
