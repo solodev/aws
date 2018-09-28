@@ -16,7 +16,7 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
-		<td width="70%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
+		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
 		<td><a href="pages/solodev-cms-lite.md"><img src="images/Subscribe_Large.jpg" /></a></td>
 	</tr>
 </table>
