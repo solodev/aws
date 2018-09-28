@@ -1,4 +1,4 @@
-<a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="pages/images/Solodev_Git_Header.jpg"/></a>
+<a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="pages/images/LaunchPad.jpg"/></a>
 
 <b>Explore the outer limits of your digital universe with Solodev: the CMS for AWS.</b> Built from the ground up to integrate with the full stack of AWS cloud technologies, Solodev CMS (Content Management System) lets you build, launch, and manage amazing websites and engaging digital experiences – all with advanced, enterprise-level functionality and unparalleled levels of scalability, redundancy, and security. 
 
