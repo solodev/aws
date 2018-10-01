@@ -86,7 +86,7 @@ The above links will launch the "Select Template" wizard, with the master templa
 
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
-![Parameters](images/Solodev_Docker_Parameters-tall.JPG)
+![Parameters](images/Solodev_Docker_Parameters.JPG)
 
 <table>
 	<tr>
