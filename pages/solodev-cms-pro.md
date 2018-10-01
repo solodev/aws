@@ -43,7 +43,7 @@ Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/late
 		<td>US East (N. Virginia)</td>
 		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
 	</tr>
-	<tr>
+	<!--<tr>
 		<td>us-east-2</td>
 		<td>US East (Ohio)</td>
 		<td align="center"><a href="#"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
@@ -77,7 +77,7 @@ Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/late
 		<td>eu-central-2</td>
 		<td>Canada (Central)</td>
 		<td align="center"><a href="#"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
-	</tr>
+	</tr>-->
 </table>
 The above links will launch the "Select Template" wizard, with the master template preselected. Click the "Next" button to customize the launch parameters.
 
