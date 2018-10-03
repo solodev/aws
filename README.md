@@ -7,12 +7,6 @@ Whether you’re a designer, developer, or marketer, Solodev gives you the best 
 
 ## Choose Your Solodev Stack
 Mission control, we have options! Choose from a range of Solodev CMS products that fit your needs – and launch your stack in seconds:
-
-|				|			  	|
-| ------------- | ------------- |
-| <a href="pages/solodev-cms-lite.md"><img src="pages\images\Solodev_Lite_Thumnail.png" /></a>  | <strong><h3><a href="pages/solodev-cms-lite.md">Solodev CMS - Lite Edition</a></h3></strong>The perfect launch pad for small development projects, Solodev Lite Edition gives you optimal control in a streamlined package. Pack your ship with best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server. Includes YAML templates for <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">Amazon Virtual Private Cloud (VPC)</a>, <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">Amazon Elastic Compute Cloud (EC2)</a>,  <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html">Amazon Simple Storage Service (S3)</a>, and <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Amazon CloudWatch</a>.<br /><br /><strong>Quick Launch:</strong> <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-single.yaml">(us-east-1)</a><br />
-		<a href="pages/solodev-cms-lite.md"><br/><img src="pages/images/Details_Button.png" width="150" /></a>  |
-| Content Cell  | Content Cell  |
 <table>
 	<tr>
 		<td width="50%"><a href="pages/solodev-cms-lite.md"><img src="pages\images\Solodev_Lite_Thumnail.png" /></a></td>
