@@ -1,7 +1,7 @@
 ﻿<a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/Solodev_Lite_Header.jpg"/></a>
 
-# Solodev CMS - Lite Edition
-The perfect launch pad for small development projects, Solodev CMS - Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a>.
+# Solodev CMS Lite Edition
+The perfect launch pad for small development projects, Solodev CMS Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a>.
 
 ## Overview
 Solodev CMS - Lite Edition on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), and [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
