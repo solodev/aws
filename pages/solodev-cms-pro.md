@@ -104,7 +104,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td width="33%">VPCID</td>
-		<td>Choose which VPC the application should be deployed to</td>
+		<td width="600px">Choose which VPC the application should be deployed to</td>
 	</tr>
 	<tr>
 		<td>Subnets</td>
@@ -125,7 +125,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td colspan="2"><strong>CMS Settings</strong></td>
 	<tr>
 		<td width="33%">AdminUser</td>
-		<td>The solodev admin username</td>
+		<td width="600px">The solodev admin username</td>
 	</tr>
 	<tr>
 		<td>AdminPassword</td>
@@ -147,7 +147,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td width="33%">RestoreBucketName</td>
-		<td>Name of S3 bucket containing files for restore</td>
+		<td width="600px">Name of S3 bucket containing files for restore</td>
 	</tr>	
 	<tr>
 		<td>SolodevSubscription</td>
