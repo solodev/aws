@@ -1,10 +1,10 @@
 ﻿<a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/Solodev_Lite_Header.jpg"/></a>
 
-# Solodev CMS - Lite Edition
-The perfect launch pad for small development projects, Solodev CMS - Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a>.
+# Solodev CMS Lite Edition
+The perfect launch pad for small development projects, Solodev CMS Lite Edition gives you optimal control in a streamlined package. Pack your ship with the best-of-breed CMS features, access to PHP, Apache, MySQL, and Mongo all on a single web server - and available on-demand in the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a>.
 
 ## Overview
-Solodev CMS - Lite Edition on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), and [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
+Solodev CMS Lite Edition on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), and [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
 
 ![AWS Diagram](images/Solodev_Lite_Architecture.jpg)
 
@@ -26,7 +26,7 @@ Solodev is a professionally managed, enterprise-class Content Management System 
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
 ## Step 2: Return to this Solodev Product Page
-Once you complete your subscription the AWS Marketplace, simply return to this Solodev CMS - Lite Edition product page.<br/><br />
+Once you complete your subscription the AWS Marketplace, simply return to this Solodev CMS Lite Edition product page.<br/><br />
 
 ## Step 3: Configure Your VPC and EC2 Key Pair
 Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
