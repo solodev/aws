@@ -41,7 +41,7 @@ Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/late
 	<tr>
 		<td>us-east-1</td>
 		<td>US East (N. Virginia)</td>
-		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
+		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms-pro&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-single.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
 	</tr>
 	<tr>
 		<td>us-east-2</td>
@@ -94,7 +94,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td>Stack name</td>
-		<td> The name of your stack (set to "solodev-cms" by default)</td>
+		<td>The name of your stack (set to "solodev-cms-pro" by default). Please note, the name must be all lowercase.</td>
 	</tr>
 </table>
 
