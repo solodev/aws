@@ -116,6 +116,10 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td>The EC2 instance type you wish to launch</td>
 	</tr>
 	<tr>
+		<td>InstanceCount</td>
+		<td>Number of instances behind load balancer. Minimum 2 required for high availability.</td>
+	</tr>	
+	<tr>
 		<td>KeyName</td>
 		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
 	</tr>
