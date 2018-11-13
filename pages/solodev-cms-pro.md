@@ -89,8 +89,8 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 
 <table>
 	<tr>
-		<td width="33%"><strong>Parameter</strong></th>
-		<td width="600px"><strong>Description</strong></th>
+		<th width="33%"><strong>Parameter</strong></th>
+		<th width="600px"><strong>Description</strong></th>
 	</tr>
 	<tr>
 		<td>Stack name</td>
@@ -151,7 +151,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>	
 	<tr>
 		<td>SolodevSubscription</td>
-		<td>Select source of Solodev subscription</td>
+		<td>Select source of Solodev subscription. Select "Marketplace" if subscribing via the AWS Marketplace. Select "BYOL" (Bring Your Own License) if you have an existing Solodev license which is activated. Contact Solodev (help@solodev.com) if you need a license activated.</td>
 	</tr>
 	<tr>
 		<td>CookbookURL</td>

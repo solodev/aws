@@ -86,73 +86,95 @@ The above links will launch the "Select Template" wizard, with the master templa
 
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
-![Parameters](images/Solodev_EE_Ops_Parameters.jpg)
+![Parameters](https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/parameters-solodev-cms-opsworks.jpg)
 
 <table>
 	<tr>
-		<th width="300">Parameter</th>
-		<th width="598">Description</th>
+		<th width="33%"><strong>Parameter</strong></th>
+		<th width="600px"><strong>Description</strong></th>
 	</tr>
 	<tr>
 		<td>Stack name</td>
 		<td>The name of your stack (set to "solodev-cms-opsworks" by default). Please note, the name must be all lowercase.</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
-		<td colspan="2"><strong>--- Network Configuration ---</strong></td>
+		<td colspan="2"><strong>Network Setup</strong></td>
 	</tr>
 	<tr>
-		<td>Which VPC should this be deployed to?</td>
-		<td>Select which VPC the application should be deployed to</td>
+		<td width="33%">VPCID</td>
+		<td width="600px">Choose which VPC the application should be deployed to</td>
 	</tr>
 	<tr>
 		<td>Subnets</td>
-		<td>Select at least two public subnets for this application</td>
-	</tr>
-	<tr>
-		<td>(Optional) FQDN</td>
-		<td>URL for app. FQDN must be pointed to CNAME of ALB.</td>
-	</tr>
-	<tr>
-		<td>(Optional) CertficateArn</td>
-		<td>SSL cert for HTTPS listener that matches the FQDN above</td>
-	</tr>
-	<tr>
-		<td colspan="2"><strong>--- Server Configuration ---</strong></td>
+		<td>Choose at least two public subnets for this application</td>
 	</tr>
 	<tr>
 		<td>InstanceType</td>
-		<td>EC2 instance type</td>
+		<td>The EC2 instance type you wish to launch</td>
 	</tr>
 	<tr>
-		<td>KeyName </td>
+		<td>KeyName</td>
 		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
-		<td colspan="2"><strong>--- Solodev Configuration ---</strong></td>
-	</tr>
+		<td colspan="2"><strong>CMS Settings</strong></td>
 	<tr>
-		<td>AdminUser</td>
-		<td>Admin user name in order to log in to the CMS after installation</td>
+		<td width="33%">AdminUser</td>
+		<td width="600px">The solodev admin username</td>
 	</tr>
 	<tr>
 		<td>AdminPassword</td>
-		<td>Admin account password in order to log in to the CMS after installation</td>
+		<td>The solodev admin password</td>
 	</tr>
 	<tr>
 		<td>DatabasePassword</td>
-		<td>The database root account password</td>
+		<td>The database root password</td>
 	</tr>
 	<tr>
-		<td>DevOpsFlavor</td>
-		<td>Which DevOps tools would you like to use to manage auto scaling (set to "Opsworks" by default)</td>
+		<td>StorageEncrypted</td>
+		<td>Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td colspan="2"><strong>Optional: SSL Configuration</strong></td>
 	</tr>
 	<tr>
-		<td>RestoreBucketName</td>
-		<td>Name of the S3 bucket containing files for restore</td>
+		<td width="33%">FQDN</td>
+		<td width="600px">URL for app. FQDN must be pointed to CNAME of ALB.</td>
+	</tr>	
+	<tr>
+		<td>CertificateArn</td>
+		<td>CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td colspan="2"><strong>Optional: Advanced</strong></td>
 	</tr>
 	<tr>
-		<td>AMI</td>
-		<td>Build AMI - Please leave this blank unless told otherwise</td>
+		<td width="33%">RestoreBucketName</td>
+		<td width="600px">Name of S3 bucket containing files for restore</td>
+	</tr>	
+	<tr>
+		<td>SolodevSubscription</td>
+		<td>Select source of Solodev subscription. Select "Marketplace" if subscribing via the AWS Marketplace. Select "BYOL" (Bring Your Own License) if you have an existing Solodev license which is activated. Contact Solodev (help@solodev.com) if you need a license activated.</td>
+	</tr>
+	<tr>
+		<td>CookbookURL</td>
+		<td>https://s3.amazonaws.com/solodev-aws-ha/cookbooks.tar.gz | Download and host on your own S3 bucket or copy this URL.</td>
+	</tr>
+	<tr>
+		<td>DeletionPolicy</td>
+		<td>Experimental: Deletion Policy (Retain, Delete, Snapshot)</td>
 	</tr>
 </table>
 
