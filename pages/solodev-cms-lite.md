@@ -90,26 +90,26 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 
 <table>
 	<tr>
-		<th width="300">Parameter</th>
-		<th width="598">Description</th>
+		<th width="33%">Parameter</th>
+		<th width="600px">Description</th>
 	</tr>
 	<tr>
 		<td>Stack name</td>
 		<td>The name of your stack (set to "solodev-cms-lite" by default). Please note, the name must be all lowercase.</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
-		<td colspan="2"><strong>--- Network Configuration ---</strong></td>
+		<td colspan="2"><strong>Network Setup</strong></td>
 	</tr>
 	<tr>
-		<td>Which VPC should this be deployed to?</td>
-		<td>Select which VPC the application should be deployed to</td>
+		<td width="33%">VPCID</td>
+		<th width="600px">Choose which VPC the Application should be deployed to</td>
 	</tr>
 	<tr>
 		<td>Subnets</td>
-		<td>Select at least two public subnets for this application</td>
-	</tr>
-	<tr>
-		<td colspan="2"><strong>--- Server Configuration ---</strong></td>
+		<td>Choose at least two public subnets for this application</td>
 	</tr>
 	<tr>
 		<td>InstanceType</td>
@@ -119,20 +119,27 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td>KeyName </td>
 		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
 	</tr>
+</table>
+
+<table>
+	<tr>
+		<td colspan="2"><strong>Optional: Advanced</strong></td>
+	</tr>
+	<tr>
+		<td width="33%">AMI</td>
+		<th width="600px">Experimental: Build AMI (Please leave this blank unless told otherwise)</td>
+	</tr>
 	<tr>
 		<td>HostVolumeSize</td>
 		<td>Size in GB of root volume</td>
 	</tr>
 	<tr>
 		<td>SSHFrom</td>
-		<td>Lockdown SSH access to the bastion host</td>
+		<td>Lockdown SSH access to host</td>
 	</tr>
 	<tr>
-		<td colspan="2"><strong>--- Solodev Configuration ---</strong></td>
-	</tr>
-	<tr>
-		<td>AMI</td>
-		<td>Build AMI - Please leave this blank unless told otherwise</td>
+		<td>Deletion Policy</td>
+		<td>Experimental: Deletion Policy (Retain, Delete, Snapshot)</td>
 	</tr>
 </table>
 
