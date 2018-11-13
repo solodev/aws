@@ -105,7 +105,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td width="33%">VPCID</td>
-		<th width="600px">Choose which VPC the Application should be deployed to</td>
+		<td width="600px">Choose which VPC the Application should be deployed to</td>
 	</tr>
 	<tr>
 		<td>Subnets</td>
@@ -127,7 +127,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td width="33%">AMI</td>
-		<th width="600px">Experimental: Build AMI (Please leave this blank unless told otherwise)</td>
+		<td width="600px">Experimental: Build AMI (Please leave this blank unless told otherwise)</td>
 	</tr>
 	<tr>
 		<td>HostVolumeSize</td>
