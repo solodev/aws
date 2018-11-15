@@ -52,12 +52,12 @@ Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/late
 	<tr>
 		<td>us-west-1</td>
 		<td>US West (N. California)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
+		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/new?stackName=solodev-cms-opsworks&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-opsworks.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
 	</tr>
 	<tr>
 		<td>us-west-2</td>
 		<td>US West (Oregon)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
+		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=solodev-cms-opsworks&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-opsworks.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
 	</tr>
 	<tr>
 		<td>eu-west-1</td>
