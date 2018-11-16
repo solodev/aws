@@ -169,10 +169,6 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td width="600px">Name of S3 bucket containing files for restore</td>
 	</tr>	
 	<tr>
-		<td>SolodevSubscription</td>
-		<td>Select source of Solodev subscription. Select "Marketplace" if subscribing via the AWS Marketplace. Select "BYOL" (Bring Your Own License) if you have an existing Solodev license which is activated. Contact Solodev (help@solodev.com) if you need a license activated.</td>
-	</tr>
-	<tr>
 		<td>CookbookURL</td>
 		<td>https://s3.amazonaws.com/solodev-aws-ha/cookbooks.tar.gz | Download and host on your own S3 bucket or copy this URL.</td>
 	</tr>

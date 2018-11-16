@@ -126,16 +126,8 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td colspan="2"><strong>Optional: Advanced</strong></td>
 	</tr>
 	<tr>
-		<td width="33%">AMI</td>
-		<td width="600px">Experimental: Build AMI (Please leave this blank unless told otherwise)</td>
-	</tr>
-	<tr>
 		<td>HostVolumeSize</td>
 		<td>Size in GB of root volume</td>
-	</tr>
-	<tr>
-		<td>SSHFrom</td>
-		<td>Lockdown SSH access to host</td>
 	</tr>
 	<tr>
 		<td>Deletion Policy</td>
