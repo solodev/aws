@@ -12,77 +12,41 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 
 ## Step 1: Subscribe on the AWS Marketplace
 
-Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace.</a> Click the button below to get started: 
+Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
-		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
-		<td><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/Subscribe_Large.jpg" /></a></td>
+		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
+		<td><a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X"><img src="images/Subscribe_Large.jpg" /></a></td>
 	</tr>
 </table>
 
 
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
-## Step 2: Return to this Solodev Product Page
-Once you complete your subscription the AWS Marketplace, simply return to this Solodev CMS Professional Edition product page.<br/><br />
-
-## Step 3: Configure Your VPC and EC2 Key Pair
+## Step 2: Configure Your VPC and EC2 Key Pair
 Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
 
-## Step 4: Launch your CloudFormation Stack
-Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
+## Step 3: Launch your CloudFormation Stack
+<strong>Confirm Subscription</strong><br />
+Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.<br /><br />
 
-<table>
-	<tr>
-		<th width="299">AWS Region Code</td>
-		<th width="299">Name</td>
-		<th width="299" align="center">Launch</td>
-	</tr>
-	<tr>
-		<td>us-east-1</td>
-		<td>US East (N. Virginia)</td>
-		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms-pro&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
-	</tr>
-	<tr>
-		<td>us-east-2</td>
-		<td>US East (Ohio)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>us-west-1</td>
-		<td>US West (N. California)</td>
-		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/new?stackName=solodev-cms-pro&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
-	</tr>
-	<tr>
-		<td>us-west-2</td>
-		<td>US West (Oregon)</td>
-		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=solodev-cms-pro&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
-	</tr>
-	<tr>
-		<td>eu-west-1</td>
-		<td>EU (Ireland)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-west-2</td>
-		<td>EU (London)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-central-1</td>
-		<td>EU (Frankfurt)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-central-2</td>
-		<td>Canada (Central)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-</table>
-The above links will launch the "Select Template" wizard, with the master template preselected. Click the "Next" button to customize the launch parameters.
+{{INSERT SCREENSHOT}}
 
+<strong>Configure Solodev CMS</strong><br />
+Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
-## Parameters
+{{INSERT SCREENSHOT}}
+
+<strong>Launch Solodev CMS</strong><br />
+Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
+
+{{INSERT SCREENSHOT}}
+
+## Step 4: Fill Out the CloudFormation Stack Wizard
+<strong>Continue with the preselected CloudFormation Template</strong><br />
+The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
+
+<strong>Specify Details</strong><br />
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
 ![Parameters](https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/parameters-solodev-cms-pro.jpg)
@@ -158,6 +122,29 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td>Experimental: Deletion Policy (Retain, Delete, Snapshot)</td>
 	</tr>
 </table>
+
+<strong>Specify Options</strong><br />
+Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disabled "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
+
+<strong>Review</strong><br />
+Review all CloudFront details and options. Click on the "Create" button to launch your Solodev CMS stack.
+
+## Step 5: Monitor the CloudFormation Stack Creation Process
+Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/AWS-Launch-Pad/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/monitor-solodev-cms-pro.jpg" />
+
+## Step 6: View CloudFormation Stack Outputs
+
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend.
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/outputs-solodev-cms-pro.jpg" />
+
+## Step 7: Login to Solodev
+
+Visit the IP address acquired in Step 7. Login to CMS using the username "Solodev" and the password you configured in Step 5.
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/login-solodev-cms-pro.jpg" />
 
 ## Support
 Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars. 
