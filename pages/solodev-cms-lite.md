@@ -135,6 +135,22 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 </table>
 
+## Step 5: View CloudFormation Stack Outputs
+
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend.
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/outputs-solodev-cms-lite.jpg" />
+
+## Step 6: Login to Solodev
+
+Navigate to the EC2 dashboard within AWS. View the details associated with the recently created EC2 server and take note of the "Instance ID" as this will be the default password for the CMS admin account. 
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/instance-id-solodev-cms-lite.jpg" />
+
+Visit the IP address acquired in Step 7. Login to the CMS using the username "Solodev". The password will be the "Instance ID" that corresponds to the recently launched EC2 Server.
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/login-solodev-cms-pro.jpg" />
+
 ## Support
 Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars. 
 
