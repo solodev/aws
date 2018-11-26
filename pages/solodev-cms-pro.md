@@ -28,7 +28,7 @@ Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/Use
 
 ## Step 3: Launch your CloudFormation Stack
 <strong>Confirm Subscription</strong><br />
-Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.<br /><br />
+Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
 
 {{INSERT SCREENSHOT}}
 
@@ -126,8 +126,12 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 <strong>Specify Options</strong><br />
 Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disabled "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
 
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/options-solodev-cms-pro.jpg" />
+
 <strong>Review</strong><br />
-Review all CloudFront details and options. Click on the "Create" button to launch your Solodev CMS stack.
+Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
+
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/review-solodev-cms-pro.jpg" />
 
 ## Step 5: Monitor the CloudFormation Stack Creation Process
 Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/AWS-Launch-Pad/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
