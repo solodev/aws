@@ -126,8 +126,8 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td colspan="2"><strong>Optional: Advanced</strong></td>
 	</tr>
 	<tr>
-		<td>HostVolumeSize</td>
-		<td>Size in GB of root volume</td>
+		<td width="33%">HostVolumeSize</td>
+		<td width="600px">Size in GB of root volume</td>
 	</tr>
 	<tr>
 		<td>Deletion Policy</td>
