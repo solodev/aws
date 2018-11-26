@@ -30,17 +30,17 @@ Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/Use
 <strong>Confirm Subscription</strong><br />
 Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
 
-{{INSERT SCREENSHOT}}
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/subscription-solodev-cms-pro.jpg" />
 
 <strong>Configure Solodev CMS</strong><br />
 Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
-{{INSERT SCREENSHOT}}
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/configuration-solodev-cms-pro.jpg" />
 
 <strong>Launch Solodev CMS</strong><br />
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
 
-{{INSERT SCREENSHOT}}
+<img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/launch-solodev-cms-pro.jpg" />
 
 ## Step 4: Fill Out the CloudFormation Stack Wizard
 <strong>Continue with the preselected CloudFormation Template</strong><br />
