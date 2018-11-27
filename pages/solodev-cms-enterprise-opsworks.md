@@ -13,11 +13,11 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 
 ## Step 1: Subscribe on the AWS Marketplace
 
-Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace.</a> Click the button below to get started: 
+Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07KMH1HLG/ref=_ptnr_solodev_github_B07KMH1HLG">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
-		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
-		<td><a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/Subscribe_Large.jpg" /></a></td>
+		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B07KMH1HLG/ref=_ptnr_solodev_github_B07KMH1HLG"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
+		<td><a href="https://aws.amazon.com/marketplace/pp/B07KMH1HLG/ref=_ptnr_solodev_github_B07KMH1HLG"><img src="images/Subscribe_Large.jpg" /></a></td>
 	</tr>
 </table>
 
@@ -35,7 +35,7 @@ Click on the "Continue to Subscribe" link within the AWS Marketplace listing. On
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/subscription-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/subscription-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
@@ -44,7 +44,7 @@ Specify the basic configurables such as the software version and the region you 
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/configuration-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/configuration-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
@@ -53,7 +53,7 @@ Confirm your configurations and choose "Launch CloudFormation" within the "Choos
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/launch-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/launch-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
