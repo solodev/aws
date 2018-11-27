@@ -195,7 +195,7 @@ Upon launching your CloudFormation stack, you will be able to monitor the instal
 
 ## Step 6: View CloudFormation Stack Outputs
 
-If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point both your primary domain (www.mydomain.com) and a dedicated backend domain/subdomain to this URL.
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point both your primary domain (www.mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
 
 <table>
 	<tr>
