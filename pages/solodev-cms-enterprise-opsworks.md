@@ -70,7 +70,11 @@ The Amazon S3 template URL (used for the CloudFormation configuration) should be
 <strong>Specify Details</strong><br />
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
-![Parameters](https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/parameters-solodev-cms-opsworks.jpg)
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/parameters-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
 
 <table>
 	<tr>
