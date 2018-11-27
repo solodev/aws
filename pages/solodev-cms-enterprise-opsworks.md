@@ -205,7 +205,7 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 ## Step 7: Login to Solodev
 
-Visit the IP address acquired in Step 7. Login to CMS using the username "Solodev" and the password you configured in Step 5.
+Visit the IP address acquired in Step 7. Login to CMS using the username "solodev" and the password you configured in Step 5.
 
 <table>
 	<tr>
