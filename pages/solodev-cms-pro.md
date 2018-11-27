@@ -58,6 +58,12 @@ Confirm your configurations and choose "Launch CloudFormation" within the "Choos
 <strong>Continue with the preselected CloudFormation Template</strong><br />
 The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
 
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/template-solodev-cms-pro.jpg" /></td>
+	</tr>
+</table>
+
 <strong>Specify Details</strong><br />
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
