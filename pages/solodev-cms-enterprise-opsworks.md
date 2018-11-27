@@ -171,7 +171,7 @@ Generally speaking, no additional options need to be configured. If you are expe
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/options-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/options-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
@@ -180,7 +180,7 @@ Review all CloudFront details and options. Ensure that the "I acknowledge that A
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/review-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/review-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
