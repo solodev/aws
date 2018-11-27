@@ -24,13 +24,10 @@ Solodev is a professionally managed, enterprise-class Content Management System 
 
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
-## Step 2: Return to this Solodev Product Page
-Once you complete your subscription the AWS Marketplace, simply return to this Solodev Enterprise Edition for AWS OpsWorks product page.<br/><br />
-
-## Step 3: Configure Your VPC and EC2 Key Pair
+## Step 2: Configure Your VPC and EC2 Key Pair
 Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
 
-## Step 4: Launch your CloudFormation Stack
+## Step 3: Launch your CloudFormation Stack
 Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
 
 <table>
