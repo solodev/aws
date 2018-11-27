@@ -165,7 +165,7 @@ Solodev Customer Care Includes
 * Online HelpDesk ticketing
 * Phone and email support
 * Live training courses
-* Over 600 pages of searchable documentation and tutorials
+* Over 300 pages of searchable documentation and tutorials
 
 To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
 
