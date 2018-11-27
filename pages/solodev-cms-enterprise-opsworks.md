@@ -189,7 +189,7 @@ Upon launching your CloudFormation stack, you will be able to monitor the instal
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/monitor-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/monitor-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
@@ -209,7 +209,7 @@ Visit the IP address acquired in Step 7. Login to CMS using the username "Solode
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/login-solodev-cms-pro.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/login-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
