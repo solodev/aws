@@ -195,11 +195,17 @@ Upon launching your CloudFormation stack, you will be able to monitor the instal
 
 ## Step 6: View CloudFormation Stack Outputs
 
-If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend.
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point both your primary domain (www.mydomain.com) and a dedicated backend domain/subdomain to this URL.
 
 <table>
 	<tr>
 		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/outputs-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/dns-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
