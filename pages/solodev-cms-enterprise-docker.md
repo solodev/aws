@@ -58,7 +58,6 @@ Confirm your configurations and choose "Launch CloudFormation" within the "Choos
 </table>
 
 ## Step 4: Fill Out the CloudFormation Stack Wizard
-<strong>Continue with the Preselected CloudFormation Template and Specify Details</strong><br />
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
 
 <table>
