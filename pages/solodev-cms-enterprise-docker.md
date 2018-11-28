@@ -116,6 +116,10 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td>The solodev admin password</td>
 	</tr>
 	<tr>
+		<td>DatabaseName</td>
+		<td>The solodev database name</td>
+	</tr>
+	<tr>
 		<td>DatabasePassword</td>
 		<td>The database root password</td>
 	</tr>
@@ -147,10 +151,6 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td width="33%">RestoreBucketName</td>
 		<td width="600px">Name of S3 bucket containing files for restore</td>
 	</tr>	
-	<tr>
-		<td>CookbookURL</td>
-		<td>https://s3.amazonaws.com/solodev-aws-ha/cookbooks.tar.gz | Download and host on your own S3 bucket or copy this URL.</td>
-	</tr>
 	<tr>
 		<td>DeletionPolicy</td>
 		<td>Experimental: Deletion Policy (Retain, Delete, Snapshot)</td>
