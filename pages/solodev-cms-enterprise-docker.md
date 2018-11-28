@@ -11,142 +11,211 @@ Solodev CMS - Enterprise Edition for Docker ECS on AWS uses a set of YAML templa
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
 
-## Step 1: Contact Solodev
+## Step 1: Subscribe on the AWS Marketplace
 
-Solodev is a professionally managed, enterprise-class Content Management System (CMS). Intersted in launching Solodev CMS Enterprise Docker? <a href="https://www.solodev.com/contact/">Contact us today</a> for pricing and further instructions.
+Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07KMH1HLG/ref=_ptnr_solodev_github_B07KMH1HLG">AWS Marketplace.</a> Click the button below to get started: 
+<table>
+	<tr>
+		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B07KMH1HLG/ref=_ptnr_solodev_github_B07KMH1HLG"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
+		<td><a href="https://aws.amazon.com/marketplace/pp/B07KMH1HLG/ref=_ptnr_solodev_github_B07KMH1HLG"><img src="images/Subscribe_Large.jpg" /></a></td>
+	</tr>
+</table>
 
 
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
-## Step 2: Return to this Solodev Product Page
-Once contacted by Solodev, simply return to this Solodev Enterprise Edition for Docker ECS product page.<br/><br />
-
-## Step 3: Configure Your VPC and EC2 Key Pair
+## Step 2: Configure Your VPC and EC2 Key Pair
 Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
 
-## Step 4: Launch your CloudFormation Stack
+## Step 3: Launch your CloudFormation Stack
 Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
 
+<strong>Confirm Subscription</strong><br />
+Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
+
 <table>
 	<tr>
-		<th width="299">AWS Region Code</td>
-		<th width="299">Name</td>
-		<th width="299" align="center">Launch</td>
-	</tr>
-	<tr>
-		<td>us-east-1</td>
-		<td>US East (N. Virginia)</td>
-		<td align="center"><a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-cms&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.yaml"><img src="images/Solodev_LaunchStack.png" width="200" /></td>
-	</tr>
-	<tr>
-		<td>us-east-2</td>
-		<td>US East (Ohio)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>us-west-1</td>
-		<td>US West (N. California)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>us-west-2</td>
-		<td>US West (Oregon)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-west-1</td>
-		<td>EU (Ireland)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-west-2</td>
-		<td>EU (London)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-central-1</td>
-		<td>EU (Frankfurt)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
-	</tr>
-	<tr>
-		<td>eu-central-2</td>
-		<td>Canada (Central)</td>
-		<td align="center"><!-- <a href="#"><img src="images/Solodev_LaunchStack.png" width="200" />--></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/subscription-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
-The above links will launch the "Select Template" wizard, with the master template preselected. Click the "Next" button to customize the launch parameters.
 
-## Parameters
-
-The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
-
-![Parameters](images/Solodev_Docker_Parameters.JPG)
+<strong>Configure Solodev CMS</strong><br />
+Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
 <table>
 	<tr>
-		<th width="300">Parameter</th>
-		<th width="598">Description</th>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/configuration-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+<strong>Launch Solodev CMS</strong><br />
+Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/launch-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+## Step 4: Fill Out the CloudFormation Stack Wizard
+<strong>Continue with the preselected CloudFormation Template</strong><br />
+The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/template-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+<strong>Specify Details</strong><br />
+The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/parameters-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<th width="33%"><strong>Parameter</strong></th>
+		<th width="600px"><strong>Description</strong></th>
 	</tr>
 	<tr>
 		<td>Stack name</td>
-		<td> The name of your stack (set to "solodev-cms" by default)</td>
+		<td>The name of your stack (set to "solodev-cms-opsworks" by default). Please note, the name must be all lowercase.</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td colspan="2"><strong>Network Setup</strong></td>
 	</tr>
 	<tr>
-		<td colspan="2"><strong>--- Network Configuration ---</strong></td>
-	</tr>
-	<tr>
-		<td>Which VPC should this be deployed to?</td>
-		<td>Select which VPC the application should be deployed to</td>
+		<td width="33%">VPCID</td>
+		<td width="600px">Choose which VPC the application should be deployed to</td>
 	</tr>
 	<tr>
 		<td>Subnets</td>
-		<td>Select at least two public subnets for this application</td>
-	</tr>
-	<tr>
-		<td>(Optional) FQDN</td>
-		<td>URL for app. FQDN must be pointed to CNAME of ALB.</td>
-	</tr>
-	<tr>
-		<td>(Optional) CertficateArn</td>
-		<td>SSL cert for HTTPS listener that matches the FQDN above</td>
-	</tr>
-	<tr>
-		<td colspan="2"><strong>--- Server Configuration ---</strong></td>
+		<td>Choose at least two public subnets for this application</td>
 	</tr>
 	<tr>
 		<td>InstanceType</td>
-		<td>EC2 instance type</td>
+		<td>The EC2 instance type you wish to launch</td>
 	</tr>
 	<tr>
-		<td>KeyName </td>
+		<td>InstanceCount</td>
+		<td>Number of instances behind load balancer. Minimum 2 required for high availability.</td>
+	</tr>	
+	<tr>
+		<td>KeyName</td>
 		<td>Name of an existing EC2 KeyPair to enable SSH access to the instances</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
-		<td colspan="2"><strong>--- Solodev Configuration ---</strong></td>
-	</tr>
+		<td colspan="2"><strong>CMS Settings</strong></td>
 	<tr>
-		<td>AdminUser</td>
-		<td>Admin user name in order to log in to the CMS after installation</td>
+		<td width="33%">AdminUser</td>
+		<td width="600px">The solodev admin username</td>
 	</tr>
 	<tr>
 		<td>AdminPassword</td>
-		<td>Admin account password in order to log in to the CMS after installation</td>
+		<td>The solodev admin password</td>
 	</tr>
 	<tr>
 		<td>DatabasePassword</td>
-		<td>The database root account password</td>
+		<td>The database root password</td>
 	</tr>
 	<tr>
-		<td>DevOpsFlavor</td>
-		<td>Which DevOps tools would you like to use to manage auto scaling (set to "Opsworks" by default)</td>
+		<td>StorageEncrypted</td>
+		<td>Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td colspan="2"><strong>Optional: SSL Configuration</strong></td>
 	</tr>
 	<tr>
-		<td>RestoreBucketName</td>
-		<td>Name of the S3 bucket containing files for restore</td>
+		<td width="33%">FQDN</td>
+		<td width="600px">URL for app. FQDN must be pointed to CNAME of ALB.</td>
+	</tr>	
+	<tr>
+		<td>CertificateArn</td>
+		<td>CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td colspan="2"><strong>Optional: Advanced</strong></td>
 	</tr>
 	<tr>
-		<td>AMI</td>
-		<td>Build AMI - Please leave this blank unless told otherwise</td>
+		<td width="33%">RestoreBucketName</td>
+		<td width="600px">Name of S3 bucket containing files for restore</td>
+	</tr>	
+	<tr>
+		<td>CookbookURL</td>
+		<td>https://s3.amazonaws.com/solodev-aws-ha/cookbooks.tar.gz | Download and host on your own S3 bucket or copy this URL.</td>
+	</tr>
+	<tr>
+		<td>DeletionPolicy</td>
+		<td>Experimental: Deletion Policy (Retain, Delete, Snapshot)</td>
+	</tr>
+</table>
+
+<strong>Specify Options</strong><br />
+Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disabled "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/options-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+<strong>Review</strong><br />
+Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/review-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+## Step 5: Monitor the CloudFormation Stack Creation Process
+Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/AWS-Launch-Pad/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/monitor-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+## Step 6: View CloudFormation Stack Outputs
+
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point both your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/outputs-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/dns-solodev-cms-opsworks.jpg" /></td>
+	</tr>
+</table>
+
+## Step 7: Login to Solodev
+
+Visit either the load balancer URL or the backend domain you configured in Step 7. Login to CMS using the username "solodev" and the password you configured in Step 5.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/login-solodev-cms-opsworks.jpg" /></td>
 	</tr>
 </table>
 
