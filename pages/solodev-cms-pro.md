@@ -174,7 +174,7 @@ Upon launching your CloudFormation stack, you will be able to monitor the instal
 
 ## Step 6: View CloudFormation Stack Outputs
 
-If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend.
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend. Point both your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
 
 <table>
 	<tr>
@@ -182,9 +182,15 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 	</tr>
 </table>
 
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/dns-solodev-cms-pro.jpg" /></td>
+	</tr>
+</table>
+
 ## Step 7: Login to Solodev
 
-Visit the IP address acquired in Step 7. Login to CMS using the username "solodev" and the password you configured in Step 5.
+Visit either the IP address or the backend domain you configured in Step 7. Login to CMS using the username "solodev" and the password you configured in Step 5.
 
 <table>
 	<tr>
