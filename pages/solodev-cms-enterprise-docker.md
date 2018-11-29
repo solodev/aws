@@ -40,7 +40,7 @@ Click on the "Continue to Subscribe" link within the AWS Marketplace listing. On
 </table>
 
 <strong>Configure Solodev CMS</strong><br />
-Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
+Specify the basic configurables such as the software version. Click on the "Continue to Launch" button to proceed.
 
 <table>
 	<tr>

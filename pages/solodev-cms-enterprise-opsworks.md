@@ -167,7 +167,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 </table>
 
 <strong>Specify Options</strong><br />
-Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disabled "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
+Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
 
 <table>
 	<tr>
