@@ -58,7 +58,17 @@ Confirm your configurations and choose "Launch CloudFormation" within the "Choos
 </table>
 
 ## Step 4: Fill Out the CloudFormation Stack Wizard
-The following parameters must be configured to launch your Solodev CMS CloudFormation stack. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
+<strong>Continue with the preselected CloudFormation Template</strong><br />
+The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/template-solodev-cms-ecs.jpg" /></td>
+	</tr>
+</table>
+
+<strong>Specify Details</strong><br />
+The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
 <table>
 	<tr>
@@ -73,7 +83,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td>Stack name</td>
-		<td>The name of your stack (set to "solodev-cms-ecs" by default). Please note, the name must be all lowercase.</td>
+		<td>The name of your stack (set to "solodev-ecs" by default). Please note, the name must be all lowercase.</td>
 	</tr>
 </table>
 
@@ -115,10 +125,6 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td>The solodev admin password</td>
 	</tr>
 	<tr>
-		<td>DatabaseName</td>
-		<td>The solodev database name</td>
-	</tr>
-	<tr>
 		<td>DatabasePassword</td>
 		<td>The database root password</td>
 	</tr>
@@ -156,6 +162,24 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 </table>
 
+<strong>Specify Options</strong><br />
+Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disabled "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/options-solodev-cms-ecs.jpg" /></td>
+	</tr>
+</table>
+
+<strong>Review</strong><br />
+Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
+
+<table>
+	<tr>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/review-solodev-cms-ecs.jpg" /></td>
+	</tr>
+</table>
+
 ## Step 5: Monitor the CloudFormation Stack Creation Process
 Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/AWS-Launch-Pad/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
 
@@ -171,7 +195,7 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/outputs-solodev-cms-opsworks.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/outputs-solodev-cms-ecs.jpg" /></td>
 	</tr>
 </table>
 
