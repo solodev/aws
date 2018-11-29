@@ -28,7 +28,7 @@ Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656
 Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.<br/><br />
 
 ## Step 3: Launch your CloudFormation Stack
-Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack. Select the AWS region of your choice below:<br/><br/>
+Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack. Select the AWS region of your choice below:
 
 <strong>Confirm Subscription</strong><br />
 Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
@@ -49,7 +49,7 @@ Specify the basic configurables such as the software version and the region you 
 </table>
 
 <strong>Launch Solodev CMS</strong><br />
-Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
+Confirm your configurations and Click on the "Launch Solodev CMS" link to continue to CloudFormation.
 
 <table>
 	<tr>
@@ -125,6 +125,10 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 		<td>The solodev admin password</td>
 	</tr>
 	<tr>
+		<td>DatabaseName</td>
+		<td>The solodev database name</td>
+	</tr>	
+	<tr>
 		<td>DatabasePassword</td>
 		<td>The database root password</td>
 	</tr>
@@ -163,7 +167,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 </table>
 
 <strong>Specify Options</strong><br />
-Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disabled "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
+Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
 
 <table>
 	<tr>
@@ -181,7 +185,7 @@ Review all CloudFront details and options. Ensure that the "I acknowledge that A
 </table>
 
 ## Step 5: Monitor the CloudFormation Stack Creation Process
-Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/AWS-Launch-Pad/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
+Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, ECS, and RDS. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/AWS-Launch-Pad/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
 
 <table>
 	<tr>
