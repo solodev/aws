@@ -205,7 +205,7 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 <table>
 	<tr>
-		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/dns-solodev-cms-opsworks.jpg" /></td>
+		<td><img src="https://raw.githubusercontent.com/solodev/AWS-Launch-Pad/master/pages/images/install/dns-solodev-cms-ecs.jpg" /></td>
 	</tr>
 </table>
 
