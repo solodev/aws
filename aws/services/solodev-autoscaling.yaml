@@ -1,0 +1,610 @@
+Description: >
+    This template deploys Solodev to the provided VPC and subnets using an Auto Scaling Group.  
+    This template creates a Lambda function for the management of the CMS (Install, Update, Backup, Restore)
+
+Parameters:
+
+    EnvironmentName:
+        Description: An environment name that will be prefixed to resource names
+        Type: String
+
+    InstanceType:
+        Description: EC2 instance type
+        Type: String
+        Default: t2.medium
+        AllowedValues: [t2.micro, t2.small, t2.medium, t2.large, m3.medium, m3.large,
+        m3.xlarge, m3.2xlarge, m4.large, m4.xlarge, m4.2xlarge, m4.4xlarge, m4.10xlarge,
+        c4.large, c4.xlarge, c4.2xlarge, c4.4xlarge, c4.8xlarge, c3.large, c3.xlarge,
+        c3.2xlarge, c3.4xlarge, c3.8xlarge, r3.large, r3.xlarge, r3.2xlarge, r3.4xlarge,
+        r3.8xlarge, i2.xlarge, i2.2xlarge, i2.4xlarge, i2.8xlarge]
+        ConstraintDescription: Please choose a valid instance type.
+
+    ClusterSize:
+        Description: How many hosts do you want to initially deploy?
+        Type: Number
+        Default: 3
+
+    VPC:
+        Description: Choose which VPC this cluster should be deployed to
+        Type: AWS::EC2::VPC::Id
+
+    KeyName:
+        Default: ''
+        Description: Name of an existing EC2 KeyPair to enable SSH access to the instances
+        Type: 'AWS::EC2::KeyPair::KeyName'
+
+    AMI:
+        Description: Build AMI - This should be passed in
+        Type: String
+
+    Subnets:
+        Description: Choose which subnets this cluster should be deployed to
+        Type: List<AWS::EC2::Subnet::Id>
+
+    LoadBalancer:
+        Description: The load balancer for the cluster hosts
+        Type: String
+
+    LoadBalancerSecurityGroup:
+        Description: Select the Load Balancer Security Group to use for the cluster hosts
+        Type: AWS::EC2::SecurityGroup::Id
+
+    Path: 
+        Description: The path to register with the Application Load Balancer
+        Type: String
+        Default: /
+
+    FQDN:
+        Type: String
+        Description: Fully qualified URL for using app.  DNS of FQDN must be pointed to CNAME of ALB.
+
+    CertificateArn:
+        Type: String
+        Description: SSL cert for AWS ALB HTTPS listener
+
+    MinClusterSize:
+        Description: Minimum hosts to deploy
+        Type: Number
+        Default: 1
+
+    MaxClusterSize:
+        Description: Maximum hosts to deploy
+        Type: Number
+        Default: 5
+
+    SSHFrom:
+        Description: Lockdown SSH access to the bastion host (default can be accessed from anywhere)
+        Type: String
+        MinLength: '9'
+        MaxLength: '18'
+        Default: 0.0.0.0/0
+        AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
+        ConstraintDescription: must be a valid CIDR range of the form x.x.x.x/x.
+
+    HostVolumeSize:
+        Description: Size in GB of additional non-root volume
+        Type: String
+        Default: '128'
+        AllowedValues:
+        - '8'
+        - '16'
+        - '32'
+        - '64'
+        - '128'
+        - '256'
+        - '512'
+        - '1024'
+        - '2048'
+        - '4096'
+
+    BlockVolumeSize:
+        Description: Size in GB of additional non-root volume
+        Type: String
+        Default: '256'
+        AllowedValues:
+        - '8'
+        - '16'
+        - '32'
+        - '64'
+        - '128'
+        - '256'
+        - '512'
+        - '1024'
+        - '2048'
+        - '4096'
+
+    EFS:
+        Description: Choose which EFS this ECS cluster should use for filestorage
+        Type: String
+        Default: ""
+
+    MountPoint:
+        Description: The mount point for the EFS volume
+        Type: String
+        Default: "/var/www/Solodev/clients/solodev"
+
+    AdminUser:
+        Description: CMS Admin User
+        Type: String
+
+    AdminPassword:
+        Description: CMS Admin Password
+        Type: String
+
+    DatabaseHost:
+        Type: String
+        Description: The database host
+
+    DatabaseName:
+        Type: String
+        Description: The database name
+
+    DatabaseUsername:
+        Type: String
+        Description: The database user name
+
+    DatabasePassword:
+        Type: String
+        Description: The database user password
+
+    RestoreBucketName:
+        Default: ''
+        Description: Name of bucket containing files for restore
+        Type: String
+
+    DeploymentType:
+        Type: String
+        Default: Production
+
+    DeletionPolicy:
+        Default: 'Snapshot'
+        Type: String
+        Description: 'Asset Deletion Policy'
+
+Conditions:
+    UseSSL: !Equals [ !Ref CertificateArn, "" ]
+
+Resources:
+
+    SolodevBucket:
+        Type: AWS::S3::Bucket
+        Properties:
+            BucketName: !Join ['-', [!Ref 'EnvironmentName', 'solodev']]
+            AccessControl: 'BucketOwnerFullControl'
+            Tags:
+                -
+                  Key: 'Name'
+                  Value: !Join ['-', [!Ref 'EnvironmentName', 'S3']]
+        DeletionPolicy: 'Delete'
+
+    LambdaExecutionRole:
+        Type: 'AWS::IAM::Role'
+        Properties:
+            Policies:
+                - PolicyName: lambda-inline
+                  PolicyDocument:
+                    Version: 2012-10-17
+                    Statement:
+                    - Effect: Allow
+                      Action:
+                        - 'autoscaling:CompleteLifecycleAction'
+                        - 'autoscaling:DescribeAutoScalingInstances'
+                        - 'logs:CreateLogGroup'
+                        - 'logs:CreateLogStream'
+                        - 'logs:PutLogEvents'
+                        - 'ec2:DescribeInstances'
+                        - 'ec2:DescribeInstanceAttribute'
+                        - 'ec2:DescribeInstanceStatus'
+                        - 'ec2:DescribeHosts'
+                        - 'sns:Publish'
+                        - 'sns:ListSubscriptions'
+                      Resource: '*'
+                    - Effect: Allow
+                      Action:
+                        - 's3:*'
+                      Resource: !Join ['', ['arn:aws:s3:::', !Ref 'SolodevBucket', /*]]
+            AssumeRolePolicyDocument:
+                Version: 2012-10-17
+                Statement:
+                - Effect: Allow
+                  Principal:
+                    Service:
+                        - lambda.amazonaws.com
+                  Action:
+                    - 'sts:AssumeRole'
+            ManagedPolicyArns:
+                - 'arn:aws:iam::aws:policy/service-role/AutoScalingNotificationAccessRole'
+
+    InitSolodev:
+        Type: 'AWS::Lambda::Function'
+        Properties:
+            Environment:
+                Variables:
+                    Bucket:  !Ref SolodevBucket
+                    Runner: 'https://s3.amazonaws.com/solodev-aws-ha/config/solodev-runner.zip'
+                    Zip: 'solodev-runner.zip'
+            Code:
+                ZipFile: !Join 
+                - ''
+                - - |
+                    import cfnresponse
+                    import boto3,os,subprocess,base64,json
+                    import botocore.vendored.requests.packages.urllib3 as urllib3
+                    from botocore.client import Config
+                    OPENSSL = '/usr/bin/openssl'
+
+                    def openssl(*args):
+                        cmdline = [OPENSSL] + list(args)
+                        subprocess.check_call(cmdline)
+
+                    def handler(event, context):
+                        url = os.environ['Runner']
+                        bucket = os.environ['Bucket']
+                        key = os.environ['Zip']
+                        responseData = {}
+
+                        #Upload Lambda
+                        s3 = boto3.client('s3', config=Config(signature_version='s3v4'))
+                        http = urllib3.PoolManager()
+                        s3.upload_fileobj(http.request('GET', url, preload_content=False), bucket, key)
+
+                        #Generate Key Pair for solodev-user
+                        os.environ['HOME'] = '/tmp'
+                        openssl("genrsa", "-passout", "pass:x", "-des3", "-out", "/tmp/private.pem", "2048")
+                        openssl("rsa", "-passin", "pass:x", "-in", "/tmp/private.pem", "-outform", "PEM", "-pubout", "-out", "/tmp/public.pem")
+                        openssl("rsa", "-passin", "pass:x", "-in", "/tmp/private.pem", "-out", "/tmp/rsa.pem")
+
+                        #Upload Instance RSA Key to S3
+                        s3 = boto3.resource('s3')
+                        s3.meta.client.upload_file('/tmp/rsa.pem', bucket, 'rsa.pem')
+                        s3.meta.client.upload_file('/tmp/private.pem', bucket, 'private.pem')
+
+                        #Read RSA into memory
+                        with open("/tmp/private.pem", "rb") as private:
+                            responseData['private'] = private.read().decode("utf-8")
+                        
+                        print(responseData['private'])
+
+                        responseData['status'] = "success"
+                        try:
+                            cfnresponse.send(event, context, cfnresponse.SUCCESS, responseData)
+                        except BaseException as e:
+                            print(str(e))
+            Handler: index.handler
+            Role: !GetAtt 
+                - LambdaExecutionRole
+                - Arn
+            Runtime: python3.6
+            Timeout: 30
+
+    ExecuteInitSolodev:
+        Type: 'Custom::ExecuteInitSolodev'
+        Properties:
+            ServiceToken: !GetAtt InitSolodev.Arn
+            Region: !Ref 'AWS::Region'
+
+    EC2AutoScalingGroup:
+        Type: AWS::AutoScaling::AutoScalingGroup
+        DependsOn: "ExecuteInitSolodev"
+        Properties: 
+            VPCZoneIdentifier: !Ref Subnets
+            LaunchConfigurationName: !Ref EC2LaunchConfiguration
+            MinSize: !Ref MinClusterSize
+            MaxSize: !Ref MaxClusterSize
+            DesiredCapacity: !Ref ClusterSize
+            TargetGroupARNs:
+                - !Ref TargetGroup
+            Tags:
+                - Key: Name
+                  Value: !Join 
+                    - '-'
+                    - - !Ref 'EnvironmentName'
+                      - 'EC2-Instance'
+                  PropagateAtLaunch: true
+        CreationPolicy:
+            ResourceSignal: 
+                Timeout: PT15M
+        UpdatePolicy:
+            AutoScalingRollingUpdate:
+                MinInstancesInService: 1
+                MaxBatchSize: 1
+                PauseTime: PT15M
+                SuspendProcesses:
+                  - HealthCheck
+                  - ReplaceUnhealthy
+                  - AZRebalance
+                  - AlarmNotification
+                  - ScheduledActions
+                WaitOnResourceSignals: true
+
+    # This security group defines who/where is allowed to access the hosts directly.
+    # By default we're just allowing access from the load balancer.  If you want to SSH 
+    # into the hosts, or expose non-load balanced services you can open their ports here.
+    EC2HostSecurityGroup:
+        Type: AWS::EC2::SecurityGroup
+        Properties: 
+            VpcId: !Ref VPC
+            GroupDescription: Access to the hosts
+            SecurityGroupIngress:
+                - IpProtocol: tcp
+                  FromPort: 0
+                  ToPort: 65535
+                  #CidrIp: "0.0.0.0/0"
+                  SourceSecurityGroupId: !Ref LoadBalancerSecurityGroup 
+                - IpProtocol: tcp
+                  FromPort: 22
+                  ToPort: 22
+                  CidrIp: !Ref SSHFrom
+            Tags: 
+                - Key: Name
+                  Value: !Sub ${EnvironmentName}-Hosts
+        
+    EC2LaunchConfiguration:
+        Type: AWS::AutoScaling::LaunchConfiguration
+        Properties:
+            ImageId:  !Ref AMI
+            InstanceType: !Ref InstanceType
+            SecurityGroups: 
+                - !Ref EC2HostSecurityGroup
+            IamInstanceProfile: !Ref EC2InstanceProfile
+            KeyName: !Ref KeyName
+            AssociatePublicIpAddress: true
+            BlockDeviceMappings:
+            - DeviceName: /dev/xvda
+              Ebs:
+                VolumeSize: !Ref HostVolumeSize
+                DeleteOnTermination: 'true'
+            UserData: 
+                "Fn::Base64": !Sub |
+                    #!/bin/bash
+                    yum install -y aws-cfn-bootstrap
+                    /opt/aws/bin/cfn-init -v -c standard --region ${AWS::Region} --stack ${AWS::StackName} --resource EC2LaunchConfiguration
+                    /opt/aws/bin/cfn-signal -e $? --region ${AWS::Region} --stack ${AWS::StackName} --resource EC2AutoScalingGroup
+
+        Metadata:
+            AWS::CloudFormation::Init:
+                configSets:
+                    standard:
+                    - "init"
+                    - "efs" 
+                    - "mongo"
+                init:
+                    files:
+                        "/etc/cfn/cfn-hup.conf":
+                            mode: 000400
+                            owner: root
+                            group: root
+                            content: !Sub |
+                                [main]
+                                stack=${AWS::StackId}
+                                region=${AWS::Region}
+                        
+                        "/etc/cfn/hooks.d/cfn-auto-reloader.conf":
+                            content: !Sub |
+                                [cfn-auto-reloader-hook]
+                                triggers=post.update
+                                path=Resources.EC2LaunchConfiguration.Metadata.AWS::CloudFormation::Init
+                                action=/opt/aws/bin/cfn-init -v -c standard --region ${AWS::Region} --stack ${AWS::StackName} --resource EC2LaunchConfiguration
+                    services: 
+                        sysvinit:
+                            cfn-hup: 
+                                enabled: true
+                                ensureRunning: true
+                                files: 
+                                    - /etc/cfn/cfn-hup.conf
+                                    - /etc/cfn/hooks.d/cfn-auto-reloader.conf
+                    commands:
+                        1-add-solodev-user:
+                            command: !Sub |
+                                adduser solodev-user
+                                usermod -a -G wheel solodev-user
+                                cd /home/solodev-user
+                                mkdir .ssh
+                                chmod 700 .ssh
+                                echo "${ExecuteInitSolodev.private}"
+                                echo "${ExecuteInitSolodev.private}" > /tmp/private.pem
+                                chmod 600 /tmp/private.pem
+                                echo "Convert SSL key file to SSH"
+                                (ssh-keygen -y -P "x" -f /tmp/private.pem | sed -n '1p' | sed '$s/$/ solodev-user/') > .ssh/authorized_keys
+                                chmod 600 .ssh/authorized_keys
+                                chown -Rf solodev-user.solodev-user .ssh
+                                rm -f /tmp/private.pem
+                efs:
+                    packages:
+                        yum:
+                            nfs-utils: []
+                    commands:
+                        1-init-efs:
+                            command: !Sub |
+                                mkdir -p ${MountPoint}
+                                mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 ${EFS}.efs.${AWS::Region}.amazonaws.com:/ ${MountPoint}
+                                chown ec2-user:ec2-user ${MountPoint}
+                mongo:
+                    files:
+                        "/etc/mongod.conf":
+                            mode: 000644
+                            owner: root
+                            group: root
+                            content: !Sub |
+                                # MongoDB config
+                                dbpath=/mongo/data
+                                logpath=/mongo/log/mongod.log
+                                pidfilepath = /var/run/mongodb/mongod.pid
+                                logappend=true
+                                replSet=${AWS::StackName}
+                                fork=true
+                                # Enable webserver REST
+                                rest = true
+    EC2Role:
+        Type: AWS::IAM::Role
+        Properties: 
+            Path: /
+            RoleName: !Sub ${EnvironmentName}-EC2Role-${AWS::Region}
+            AssumeRolePolicyDocument: |
+                {
+                    "Statement": [{
+                        "Action": "sts:AssumeRole",
+                        "Effect": "Allow",
+                        "Principal": { 
+                            "Service": "ec2.amazonaws.com" 
+                        }
+                    }]
+                }
+            Policies: 
+                - PolicyName: ec2-service
+                  PolicyDocument: |
+                    {
+                        "Statement": [{
+                            "Effect": "Allow",
+                            "Action": [
+                                "autoscaling:Describe*",
+                                "logs:CreateLogStream",
+                                "logs:PutLogEvents",
+                                "ec2:Describe*",
+                                "ec2:AttachVolume",
+                                "ec2:DetachVolume",
+                                "ec2:CreateTags",
+                                "ec2:CreateVolume",
+                                "ec2:DeleteTags",
+                                "ec2:DeleteVolume",
+                                "ec2:DescribeTags",
+                                "ec2:DescribeVolumeAttribute",
+                                "ec2:DescribeVolumesModifications",
+                                "ec2:DescribeVolumeStatus",
+                                "ec2:DescribeVolumes",
+                                "ec2:DescribeInstances",
+                                "elasticloadbalancing:*",
+                                "ec2:*"
+                            ],
+                            "Resource": "*"
+                        }]
+                    }
+
+    EC2InstanceProfile: 
+        Type: AWS::IAM::InstanceProfile
+        Properties:
+            Path: /
+            Roles: 
+                - !Ref EC2Role
+
+    CloudWatchLogsGroup:
+        Type: AWS::Logs::LogGroup
+        Properties: 
+            LogGroupName: !Ref AWS::StackName
+            RetentionInDays: 14  
+
+    TargetGroup:
+        Type: AWS::ElasticLoadBalancingV2::TargetGroup
+        Properties:
+            VpcId: !Ref VPC
+            Port:
+                !If
+                    - UseSSL
+                    - 443
+                    - 80
+            Protocol:
+                !If
+                    - UseSSL
+                    - HTTPS
+                    - HTTP
+            Matcher: 
+                HttpCode: 301
+            HealthCheckIntervalSeconds: 60
+            HealthCheckPath: /
+            HealthCheckProtocol: 
+                !If
+                    - UseSSL
+                    - HTTPS
+                    - HTTP
+            HealthCheckPort:
+                !If
+                    - UseSSL
+                    - 443
+                    - 80
+            HealthCheckTimeoutSeconds: 30
+            TargetGroupAttributes:
+                - Key: stickiness.type
+                  Value: lb_cookie
+                - Key: stickiness.enabled
+                  Value: 'true'
+            Name: !Join 
+                - '-'
+                - - !Ref 'EnvironmentName'
+                  - SolodevTG
+
+    Listener:
+        Type: 'AWS::ElasticLoadBalancingV2::Listener'
+        Properties:
+            Certificates: 
+                - CertificateArn: 
+                    - !If
+                        - UseSSL
+                        - !Ref CertificateArn
+                        - !Ref AWS::NoValue
+            DefaultActions:
+                - Type: forward
+                  TargetGroupArn: !Ref TargetGroup
+            LoadBalancerArn: !Ref LoadBalancer
+            Port: 
+                !If
+                    - UseSSL
+                    - 443
+                    - 80
+            Protocol:
+                !If
+                    - UseSSL
+                    - HTTPS
+                    - HTTP
+    
+    ListenerRule:
+        Type: AWS::ElasticLoadBalancingV2::ListenerRule
+        Properties:
+            ListenerArn: !Ref Listener
+            Priority: 1
+            Conditions:
+                - Field: path-pattern
+                  Values: 
+                    - !Ref Path
+            Actions:
+                - TargetGroupArn: !Ref TargetGroup
+                  Type: forward
+
+    ConfigureSolodevLambda:
+        Type: AWS::CloudFormation::Stack
+        Properties:
+            TemplateURL: https://s3.amazonaws.com/solodev-aws-ha/aws/lambda/configure-solodev.yaml
+            Parameters:
+                EnvironmentName: !Ref AWS::StackName
+                AutoScalingGroup: !Ref EC2AutoScalingGroup
+                KeyName: !Ref KeyName
+                InstanceUser: 'solodev-user'
+                FQDN: !Ref FQDN
+                SolodevBucket: !Ref SolodevBucket
+                DatabaseName: !Ref DatabaseName
+                DatabaseHost: !Ref DatabaseHost
+                DatabaseUsername: !Ref DatabaseUsername
+                DatabasePassword: !Ref DatabasePassword
+                MongoHost: "instance['private_ip']"
+                LambdaExecutionRole: !Ref LambdaExecutionRole
+
+Outputs:
+
+    AutoScalingGroup:
+        Description: A reference to the auto scaling group
+        Value: !Ref EC2AutoScalingGroup
+
+    AutoScalingRole:
+        Description: A reference to the auto scaling role
+        Value: !GetAtt EC2Role.Arn
+
+    EC2HostSecurityGroup:
+        Description: A reference to the EC2HostSecurityGroup
+        Value: !Ref EC2HostSecurityGroup
+
+    SolodevBucket:
+        Description: A reference to the S3 bucket for solodev
+        Value: !Ref SolodevBucket
+
+    LambdaExecutionRole:
+        Description: A reference to the lambda execution role
+        Value: !GetAtt LambdaExecutionRole.Arn

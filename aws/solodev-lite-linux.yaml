@@ -1,0 +1,193 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: >
+
+    Solodev CMS Lite on AWS
+
+Metadata: 
+  AWS::CloudFormation::Interface: 
+    ParameterGroups: 
+      - 
+        Label: 
+          default: "Network Setup"
+        Parameters: 
+          - VPCID
+          - Subnets
+          - InstanceType
+          - KeyName
+      - 
+        Label: 
+          default: "Optional: Advanced"
+        Parameters: 
+          - HostVolumeSize
+          - DeletionPolicy
+
+Parameters:
+
+    VPCID: 
+        Type: AWS::EC2::VPC::Id
+        Description: Choose which VPC the Application should be deployed to
+        AllowedPattern: .+
+        ConstraintDescription: Please choose VPC
+
+    Subnets:
+        Description: Choose at least two public subnets for this application
+        Type: List<AWS::EC2::Subnet::Id>
+        AllowedPattern: .+
+        ConstraintDescription: Please choose Subnets
+
+    KeyName:
+        Description: Name of an existing EC2 KeyPair to enable SSH access to the instances
+        Type: 'AWS::EC2::KeyPair::KeyName'
+        AllowedPattern: .+
+        ConstraintDescription: Please choose EC2 KeyPair
+
+    InstanceType:
+        Type: String
+        Default: m3.medium
+        AllowedValues: [t2.small, t2.medium, t2.large, m3.medium, m3.large,
+        m3.xlarge, m3.2xlarge, m4.large, m4.xlarge, m4.2xlarge, m4.4xlarge, m4.10xlarge,
+        c4.large, c4.xlarge, c4.2xlarge, c4.4xlarge, c4.8xlarge, c3.large, c3.xlarge,
+        c3.2xlarge, c3.4xlarge, c3.8xlarge, r3.large, r3.xlarge, r3.2xlarge, r3.4xlarge,
+        r3.8xlarge, i2.xlarge, i2.2xlarge, i2.4xlarge, i2.8xlarge]
+        ConstraintDescription: Please choose a valid instance type.
+
+    DeletionPolicy:
+        Default: 'Delete'
+        Type: String
+        Description: 'Experimental: Deletion Policy (Retain, Delete, Snapshot)'
+
+    HostVolumeSize:
+        Description: Size in GB of root volume
+        Type: String
+        Default: '128'
+        AllowedValues:
+        - '64'
+        - '128'
+        - '256'
+        - '512'
+        - '1024'
+        - '2048'
+        - '4096'
+
+Mappings:
+    AWSRegionToAMI:
+      us-east-1:
+        AMI: "ami-02d023800b8b3cd00"
+      us-west-1:
+        AMI: ""
+      us-west-2:
+        AMI: ""
+      eu-west-1:
+        AMI: ""
+      sa-east-1:
+        AMI: ""
+      ap-southeast-1:
+        AMI: ""
+      ap-southeast-2:
+        AMI: ""
+      ap-northeast-1:
+        AMI: ""
+
+Resources:
+
+    SolodevBucket:
+        Type: AWS::S3::Bucket
+        Properties:
+            BucketName: !Join ['-', [!Ref 'AWS::StackName', 'solodev']]
+            AccessControl: 'BucketOwnerFullControl'
+            Tags:
+                -
+                  Key: 'Name'
+                  Value: !Join ['-', [!Ref 'AWS::StackName', 'S3']]
+        DeletionPolicy: Delete
+
+    WebServerSecurityGroup:
+        Type: 'AWS::EC2::SecurityGroup'
+        Properties:
+          GroupDescription: Enable access on port 80 and 443
+          VpcId: !Ref VPCID
+          SecurityGroupIngress:
+            - IpProtocol: tcp
+              FromPort: 80
+              ToPort: 80
+              CidrIp: 0.0.0.0/0
+            - IpProtocol: tcp
+              FromPort: 443
+              ToPort: 443
+              CidrIp: 0.0.0.0/0
+
+    PowerUserRole:
+        Type: 'AWS::IAM::Role'
+        Properties:
+            AssumeRolePolicyDocument:
+                Statement:
+                    - 
+                        Effect: Allow
+                        Principal:
+                            Service:
+                                - ec2.amazonaws.com
+                        Action:
+                        - 'sts:AssumeRole'
+            Path: /
+            Policies:
+                - 
+                    PolicyName: PowerUserPolicy
+                    PolicyDocument:
+                        Statement:
+                            - 
+                                Sid: PowerUserStmt
+                                Effect: Allow
+                                NotAction: 'iam:*'
+                                Resource: '*'
+    PowerUserProfile:
+        Type: 'AWS::IAM::InstanceProfile'
+        Properties:
+            Path: /
+            Roles:
+                - !Ref PowerUserRole
+
+    WebServerInstance:
+        Type: 'AWS::EC2::Instance'
+        Properties:
+            ImageId: !FindInMap [AWSRegionToAMI, !Ref "AWS::Region", AMI]
+            InstanceType: !Ref InstanceType
+            KeyName: !Ref KeyName
+            NetworkInterfaces: 
+                - 
+                    AssociatePublicIpAddress: "true"
+                    DeviceIndex: "0"
+                    GroupSet: 
+                        - !Ref WebServerSecurityGroup
+                    SubnetId: 
+                        !Select 
+                            - '0'
+                            - !Ref Subnets
+            BlockDeviceMappings:
+                - 
+                    DeviceName: /dev/xvda
+                    Ebs:
+                        VolumeSize: !Ref HostVolumeSize
+                        DeleteOnTermination: 'false'
+            Tags:
+                - 
+                    Key: Name
+                    Value: 
+                        !Join 
+                        - ' - '
+                        -
+                            - !Ref 'AWS::StackName'
+                            - solodev
+            IamInstanceProfile: !Ref PowerUserProfile
+
+Outputs:
+
+    SolodevIP:
+        Value: 
+            !Join 
+            - ''
+            -
+                - 'http://'
+                - !GetAtt WebServerInstance.PublicIp
+                - /
+        Description: Dedicated IP for web server.  Point your DNS to this IP.

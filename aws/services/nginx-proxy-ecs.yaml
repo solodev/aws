@@ -1,0 +1,135 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: >
+
+    ECS Task definition for Solodev CMS
+
+Parameters: 
+
+    EnvironmentName:
+        Description: An environment name that will be prefixed to resource names
+        Type: String
+
+    VPC:
+        Description: The VPC that the ECS cluster is deployed to
+        Type: AWS::EC2::VPC::Id
+
+    LoadBalancer:
+        Description: The VPC that the ECS cluster is deployed to
+        Type: String
+
+    LoadBalancerSecurityGroup:
+        Description: Select the Load Balancer Security Group to use for the cluster hosts
+        Type: AWS::EC2::SecurityGroup::Id
+        
+    Cluster:
+        Description: Please provide the ECS Cluster ID that this service should run on
+        Type: String
+
+    DesiredCount: 
+        Description: How many instances of this task should we run across our cluster?
+        Type: Number
+        Default: 2
+
+    ServiceRole:
+        Description: The Application Load Balancer Service Role
+        Type: String
+
+    Path: 
+        Description: The path to register with the Application Load Balancer
+        Type: String
+        Default: /
+
+Resources:
+
+    ECSTaskDefinition:
+      Type: 'AWS::ECS::TaskDefinition'
+      Properties:
+        Family: !Join 
+          - '-'
+          - - !Ref 'AWS::StackName'
+            - nginx-proxy
+        ContainerDefinitions:
+          - Name: nginx-proxy
+            Cpu: '0'
+            Essential: 'true'
+            Image: 'codesuki/ecs-nginx-proxy:latest'
+            Memory: '200'
+            Environment:
+              - Name: ECS_GEN_CLUSTER
+                Value: !Join 
+                  - '-'
+                  - - !Ref 'AWS::StackName'
+                    - ECS
+              - Name: ECS_GEN_REGION
+                Value: us-east-1
+            PortMappings:
+              - HostPort: 80
+                ContainerPort: 80
+        Volumes: []
+
+    ECSService:
+        Type: 'AWS::ECS::Service'
+        DependsOn: Listener
+        Properties:
+          Cluster: !Ref Cluster
+          ServiceName: nginx-proxy
+          DesiredCount: !Ref DesiredCount
+          LoadBalancers:
+            - ContainerName: nginx-proxy
+              ContainerPort: 80
+              TargetGroupArn: !Ref TargetGroup
+          Role: !Ref ServiceRole
+          TaskDefinition: !Ref ECSTaskDefinition
+
+    CloudWatchLogsGroup:
+        Type: AWS::Logs::LogGroup
+        Properties: 
+            LogGroupName: !Ref AWS::StackName
+            RetentionInDays: 14  
+
+    TargetGroup:
+        Type: AWS::ElasticLoadBalancingV2::TargetGroup
+        Properties:
+            VpcId: !Ref VPC
+            Port: 8080
+            Protocol: HTTP
+            Matcher: 
+                HttpCode: 200-299
+            HealthCheckIntervalSeconds: 60
+            HealthCheckPath: /ping
+            HealthCheckProtocol: HTTP
+            HealthCheckTimeoutSeconds: 30
+            TargetGroupAttributes:
+                - Key: deregistration_delay.timeout_seconds
+                  Value: '700'
+                - Key: stickiness.type
+                  Value: lb_cookie
+                - Key: stickiness.enabled
+                  Value: 'true'
+                - Key: stickiness.lb_cookie.duration_seconds
+                  Value: '1860'
+
+    Listener:
+        Type: 'AWS::ElasticLoadBalancingV2::Listener'
+        Properties:
+            DefaultActions:
+                - Type: forward
+                  TargetGroupArn: !Ref TargetGroup
+            LoadBalancerArn: !Ref LoadBalancer
+            Port: '80'
+            Protocol: HTTP
+    
+    ListenerRule:
+        Type: AWS::ElasticLoadBalancingV2::ListenerRule
+        Properties:
+            ListenerArn: !Ref Listener
+            Priority: 1
+            Conditions:
+                - Field: path-pattern
+                  Values: 
+                    - !Ref Path
+            Actions:
+                - TargetGroupArn: !Ref TargetGroup
+                  Type: forward

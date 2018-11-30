@@ -1,0 +1,83 @@
+---
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
+      - curl -O https://bootstrap.pypa.io/get-pip.py
+      - python get-pip.py
+      - pip install awscli
+      - aws --version
+      - curl -qL -o aws_credentials.json http://169.254.170.2/$AWS_CONTAINER_CREDENTIALS_RELATIVE_URI > aws_credentials.json
+      - aws configure set region $AWS_REGION
+      - aws configure set aws_access_key_id `./jq -r '.AccessKeyId' aws_credentials.json`
+      - aws configure set aws_secret_access_key `./jq -r '.SecretAccessKey' aws_credentials.json`
+      - aws configure set aws_session_token `./jq -r '.Token' aws_credentials.json`
+      - aws s3 sync aws s3://solodev-aws-ha/aws --delete
+      - DATE=$(date +%d%H%M)
+      
+      - echo "Delete Old Stacks"
+      - chmod 700 bin/cleanStacks.sh
+      - ./bin/cleanStacks.sh
+
+      - echo "Create Stacks:"
+
+      - echo "Create Solodev Lite"
+      - echo $(aws s3 cp s3://build-secure/params/solodev-lite-single.json - ) > solodev-lite-single.json
+      - aws cloudformation create-stack --disable-rollback --stack-name lite-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+        --parameters file:///${CODEBUILD_SRC_DIR}/solodev-lite-single.json
+        --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-lite-linux.yaml
+        
+      - echo "Create Solodev Pro for Opsworks"
+      - echo $(aws s3 cp s3://build-secure/params/solodev-pro-single.json - ) > solodev-pro-single.json
+      - aws cloudformation create-stack --disable-rollback --stack-name pro-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+        --parameters file:///${CODEBUILD_SRC_DIR}/solodev-pro-single.json
+        --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks.yaml
+
+      # # # - echo "Create Solodev Pro for Opsworks - California"
+      # # # - echo $(aws s3 cp s3://build-secure/params/solodev-pro-opsworks-us-west-1.json - ) > solodev-pro-single.json
+      # # # - aws cloudformation create-stack --region us-west-1 --disable-rollback --stack-name pro-tmp-${DATE}-west --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+      # # #   --parameters file:///${CODEBUILD_SRC_DIR}/solodev-pro-single.json
+      # # #   --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks.yaml
+
+      # - echo "Create Solodev Pro for Opsworks BYOL"
+      # - echo $(aws s3 cp s3://build-secure/params/solodev-pro-single.json - ) > solodev-pro-single-byol.json
+      # - aws cloudformation create-stack --disable-rollback --stack-name pro-byol-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+      #   --parameters file:///${CODEBUILD_SRC_DIR}/solodev-pro-single-byol.json
+      #   --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks-byol.yaml
+
+      # # # - echo "Create Solodev Pro for Opsworks BYOL - California"
+      # # # - echo $(aws s3 cp s3://build-secure/params/solodev-pro-opsworks-us-west-1.json - ) > solodev-pro-single-byol.json
+      # # # - aws cloudformation create-stack --region us-west-1 --disable-rollback --stack-name pro-byol-tmp-${DATE}-west --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+      # # #   --parameters file:///${CODEBUILD_SRC_DIR}/solodev-pro-single-byol.json
+      # # #   --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-pro-opsworks-byol.yaml
+
+      # - echo "Create Solodev Enterprise for Opsworks"
+      # - echo $(aws s3 cp s3://build-secure/params/solodev-enterprise-opsworks.json - ) > solodev-enterprise-opsworks.json
+      # - aws cloudformation create-stack --disable-rollback --stack-name ops-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+      #   --parameters file:///${CODEBUILD_SRC_DIR}/solodev-enterprise-opsworks.json
+      #   --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-opsworks.yaml
+
+      # - echo "Create Solodev Enterprise for Opsworks BYOL"
+      # - echo $(aws s3 cp s3://build-secure/params/solodev-enterprise-opsworks.json - ) > solodev-enterprise-opsworks.json
+      # - aws cloudformation create-stack --disable-rollback --stack-name ops-byol-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+      #   --parameters file:///${CODEBUILD_SRC_DIR}/solodev-enterprise-opsworks.json
+      #   --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-opsworks-byol.yaml
+
+      - echo "Create Solodev Enterprise for Docker (MarketPlace)"
+      - echo $(aws s3 cp s3://build-secure/params/solodev-enterprise-ecs.json - ) > solodev-enterprise-ecs.json
+      - aws cloudformation create-stack --disable-rollback --stack-name ecs-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+        --parameters file:///${CODEBUILD_SRC_DIR}/solodev-enterprise-ecs.json
+        --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.yaml
+
+      # - echo "Create Solodev Enterprise for Docker (DockerHub)"
+      # - echo $(aws s3 cp s3://build-secure/params/solodev-enterprise-ecs-dev.json - ) > solodev-enterprise-ecs-dev.json
+      # - aws cloudformation create-stack --disable-rollback --stack-name ecs-dev-tmp-${DATE} --disable-rollback --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
+      #   --parameters file:///${CODEBUILD_SRC_DIR}/solodev-enterprise-ecs-dev.json
+      #   --template-url https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.dev.yaml
+
+      - echo "Cleanup" | rm -f *json
+  post_build:
+    commands:
+      - echo "S3 synced on `date`"
