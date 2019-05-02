@@ -74,7 +74,7 @@ Free code examples, responsive design ideas, content management tips, social med
 
 <a href="https://www.solodev.com/blog/">View all tutorials</a>	
 ---
-© 2018 Solodev. All rights reserved. 
+© 2019 Solodev. All rights reserved. 
 
 Errors or corrections? Email us at help@solodev.com.
 

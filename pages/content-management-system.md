@@ -64,7 +64,7 @@ Solodev Web Experience Platform puts you at the center of your own digital unive
 > Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
-© 2018 Solodev. All rights reserved. 
+© 2019 Solodev. All rights reserved. 
 
 Errors or corrections? Email us at help@solodev.com.
 
