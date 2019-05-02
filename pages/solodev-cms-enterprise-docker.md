@@ -211,7 +211,7 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 ## Step 7: Login to Solodev
 
-Visit either the load balancer URL or the backend domain you configured in Step 7. Login to CMS using the username "solodev" and the password you configured in Step 5.
+Visit either the load balancer URL or the backend domain you configured in Step 7. Log-in to Solodev using the username "solodev" and the password you configured in Step 5.
 
 <table>
 	<tr>
@@ -235,8 +235,8 @@ To learn more about our add-on support options, call 1-800-859-7656 to speak wit
 
 ## Developers
 Are you a Solodev Developer? Launch a development stack in your AWS account using the below links. Please note, the builds will only be successfull for authorized Solodev Developers.
-* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-ecs&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.yaml">Launch Solodev ECS</a>
-* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-ecs-dev&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.dev.yaml">Launch Solodev ECS (DEV)</a>
+* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-docker&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.yaml">Launch Solodev ECS</a>
+* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-docker-dev&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-ecs.dev.yaml">Launch Solodev ECS (DEV)</a>
 
 ## Need Help?
 
