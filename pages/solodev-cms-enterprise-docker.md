@@ -1,10 +1,10 @@
 <a href="https://aws.amazon.com/marketplace/pp/B01LXZKO21?qid=1534773581495&sr=0-1&ref_=srh_res_product_title"><img src="images/Solodev_Lite_Header.jpg"/></a>
 
-# Solodev CMS - Enterprise Edition for Docker ECS
+# Solodev DCX Enterprise Edition for Docker
 Get ready to dock with the space-age power of containers! Launch your next amazing website, application, or dream project today with the self-service enterprise power of Solodev – built exclusively for AWS with fully containerized orchestration for Docker. With containers, you can reach new levels of productivity and management, allowing you to run and scale at will. Now you can focus on building, deploying, and managing your applications, and not the underlying infrastructure.
 
 ## Overview
-Solodev CMS - Enterprise Edition for Docker ECS on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Elastic Load Balancing (Application Load Balancer)](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [Amazon Relational Database Service (RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon Elastic File System (EFS)](http://docs.aws.amazon.com/efs/latest/ug/whatisefs.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Certificate Manager (ACM)](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html), [Amazon Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) managed by [Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html) and deployed by [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
+Solodev DCX Enterprise Edition for Docker on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Elastic Load Balancing (Application Load Balancer)](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [Amazon Relational Database Service (RDS)](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html), [Amazon Elastic File System (EFS)](http://docs.aws.amazon.com/efs/latest/ug/whatisefs.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Amazon CloudFront](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html), [Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), [Amazon Certificate Manager (ACM)](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html), [Amazon Web Application Firewall (WAF)](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html) managed by [Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html) and deployed by [AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 
 ![AWS Diagram](images/Solodev_Docker_Architecture_Temp.jpg)
 
@@ -13,7 +13,7 @@ Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be l
 
 ## Step 1: Subscribe on the AWS Marketplace
 
-Solodev is a professionally managed, enterprise-class Content Management System (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07K6TRSMP/ref=_ptnr_solodev_github_B07K6TRSMP">AWS Marketplace.</a> Click the button below to get started: 
+Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07K6TRSMP/ref=_ptnr_solodev_github_B07K6TRSMP">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
 		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B07K6TRSMP/ref=_ptnr_solodev_github_B07K6TRSMP"><img src="images/AWS_Marketplace_Logo.jpg" /></a></td>
@@ -39,7 +39,7 @@ Click on the "Continue to Subscribe" link within the AWS Marketplace listing. On
 	</tr>
 </table>
 
-<strong>Configure Solodev CMS</strong><br />
+<strong>Configure Solodev DCX</strong><br />
 Specify the basic configurables such as the software version. Click on the "Continue to Launch" button to proceed.
 
 <table>
@@ -48,7 +48,7 @@ Specify the basic configurables such as the software version. Click on the "Cont
 	</tr>
 </table>
 
-<strong>Launch Solodev CMS</strong><br />
+<strong>Launch Solodev DCX</strong><br />
 Confirm your configurations and Click on the "Launch Solodev CMS" link to continue to CloudFormation.
 
 <table>
@@ -68,7 +68,7 @@ The Amazon S3 template URL (used for the CloudFormation configuration) should be
 </table>
 
 <strong>Specify Details</strong><br />
-The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
+The following parameters must be configured to launch your Solodev DCX CloudFormation stack:
 
 <table>
 	<tr>
