@@ -2,6 +2,8 @@
 
 # Solodev DCX Enterprise Edition for Kubernetes
 
+![AWS Diagram](images/Solodev_EKS_Architecture.jpg)
+
 © 2019 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
