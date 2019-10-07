@@ -27,16 +27,16 @@ Please note that both a <a href="http://docs.aws.amazon.com/AmazonVPC/latest/Use
 ## Step 3: Launch your CloudFormation Stack(s)
 Once you’ve configured your <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html">VPC</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a>, you can launch your CloudFormation stack(s). 
 
-Please follow the instructions below depending upon your current environment. If you do not have an existing EKS cluster, begin by <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/pages/deploy-eks.md" target="_blank">launching a new EKS cluster</a>. Once that is complete, follow the directions to <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/pages/deploy-solodev-dcx.md" target="_blank">deploy Solodev DCX</a> to that newly created EKS cluster. Conversely, if you wish to deploy Solodev DCX to a preexisting EKS cluster, skip directly to <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/pages/deploy-solodev-dcx.md" target="_blank">those instructions</a>.
+Please follow the instructions below depending upon your current environment. If you do not have an existing EKS cluster, begin by <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/deploy-eks.md" target="_blank">launching a new EKS cluster</a>. Once that is complete, follow the directions to <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/deploy-solodev-dcx.md" target="_blank">deploy Solodev DCX</a> to that newly created EKS cluster. Conversely, if you wish to deploy Solodev DCX to a preexisting EKS cluster, skip directly to <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/deploy-solodev-dcx.md" target="_blank">those instructions</a>.
 
 <table>
 	<tr>
-		<th width="441"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/pages/deploy-eks.md">Launch a New EKS Cluster*<br /><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/launch-btn2.png" /></a></th>
-		<th width="441"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/pages/deploy-solodev-dcx.md">Deploy Solodev DCX to an EKS Cluster<br /><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/launch-btn.png" /></a></th>
+		<th width="441"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/deploy-eks.md">Launch a New EKS Cluster*<br /><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/launch-btn2.png" /></a></th>
+		<th width="441"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/deploy-solodev-dcx.md">Deploy Solodev DCX to an EKS Cluster<br /><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/launch-btn.png" /></a></th>
 	</tr>
 </table>
 
-<pre>* Developer? Please see instructions regarding setting up a <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/pages/deploy-solodev-dcx-network.md">Solodev DCX Network</a> for your EKS cluster.</pre>
+<pre>* Developer? Please see instructions regarding setting up a <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/deploy-solodev-dcx-network.md">Solodev DCX Network</a> for your EKS cluster.</pre>
 
 ## Support
 Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars. 
