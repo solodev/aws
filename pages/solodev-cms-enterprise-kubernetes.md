@@ -1,10 +1,10 @@
 <a href="#"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_Lite_Header.jpg"/></a>
 
-# Solodev DCX Enterprise Edition for Kubernetes
-Designed for enterprise-level demands, Solodev DCX Enterprise Edition for Kubernetes gives you best-of-breed features and advanced capabilities on a secure archtiecture managed by Amazon EKS. Launch Solodev DCX in a new EKS cluster or even deploy to an existing cluster.
+# Solodev CMS Enterprise Edition for Kubernetes
+Designed for enterprise-level demands, Solodev CMS Enterprise Edition for Kubernetes gives you best-of-breed features and advanced capabilities on a secure archtiecture managed by Amazon EKS. Launch Solodev CMS in a new EKS cluster or even deploy to an existing cluster.
 
 ## Overview
-Solodev DCX Enterprise Edition for Kubernetes on AWS empowers you to run and scale at will - so you can focus on building, deploying, and managing your applications and not the underlying infrastructure.
+Solodev CMS Enterprise Edition for Kubernetes on AWS empowers you to run and scale at will - so you can focus on building, deploying, and managing your applications and not the underlying infrastructure.
 
 ![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_EKS_Architecture.jpg)
 
@@ -20,14 +20,14 @@ Solodev is a professionally managed, enterprise-class Digital Customer Experienc
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
 ## Step 2: Choose Deployment Option
-How you deploy Solodev DCX Enterprise Edition for Kubernetes depends upon your experience, comfort level with deployment technologies, and existing infrastructure. Comfortable with Helm and command line? Visit the <a href="https://github.com/techcto/charts">Solodev Helm Charts</a> repository for instructions on deploying to new or existing clusters with Helm commands. Prefer a streamlined experience? With just a few configurables, you can <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md">deploy Solodev DCX by CloudFormation</a> and have everything in a managed stack.
+How you deploy Solodev CMS Enterprise Edition for Kubernetes depends upon your experience, comfort level with deployment technologies, and existing infrastructure. Comfortable with Helm and command line? Visit the <a href="https://github.com/techcto/charts">Solodev Helm Charts</a> repository for instructions on deploying to new or existing clusters with Helm commands. Prefer a streamlined experience? With just a few configurables, you can <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md">deploy Solodev CMS by CloudFormation</a> and have everything in a managed stack.
 
 <table>
 	<tr>
 		<td width="25%"><a href="https://github.com/techcto/charts"><img src="img/deploy-via-helm.jpg" /></a></td>
 		<td>
 			<h3>Deploy via Helm Charts</h3>
-			<p>For those looking to install Solodev DCX to a new or existing Kubernetes cluster via Helm and command line, visit the Solodev Helm Charts repository for further instructions.</p>
+			<p>For those looking to install Solodev CMS to a new or existing Kubernetes cluster via Helm and command line, visit the Solodev Helm Charts repository for further instructions.</p>
 			<p align="right"><a href="https://github.com/techcto/charts"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
 		</td>
 	</tr>
@@ -38,7 +38,7 @@ How you deploy Solodev DCX Enterprise Edition for Kubernetes depends upon your e
 		<td width="25%"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md"><img src="img/deploy-via-cloudformation.jpg" /></a></td>
 		<td>
 			<h3>Deploy via CloudFormation</h3>
-			<p>Launch a new EKS cluster and deploy Solodev DCX via AWS CloudFormation. By following the configuration instructions, you will be able to have your stacks created in no time.</p>
+			<p>Launch a new EKS cluster and deploy Solodev CMS via AWS CloudFormation. By following the configuration instructions, you will be able to have your stacks created in no time.</p>
 			<p align="right"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
 		</td>
 	</tr>
