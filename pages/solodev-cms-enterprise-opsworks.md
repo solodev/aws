@@ -39,7 +39,7 @@ Click on the "Continue to Subscribe" link within the AWS Marketplace listing. On
 	</tr>
 </table>
 
-<strong>Configure Solodev CMS</strong><br />
+<strong>Configure Solodev CMS Enterprise Edition</strong><br />
 Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
 <table>
@@ -48,7 +48,7 @@ Specify the basic configurables such as the software version and the region you 
 	</tr>
 </table>
 
-<strong>Launch Solodev CMS</strong><br />
+<strong>Launch Solodev CMS Enterprise Edition</strong><br />
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
 
 <table>
