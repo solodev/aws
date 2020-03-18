@@ -39,7 +39,7 @@ Click on the "Continue to Subscribe" link within the AWS Marketplace listing. On
 	</tr>
 </table>
 
-<strong>Configure Solodev CMS</strong><br />
+<strong>Configure Solodev CMS Enterprise Edition for Docker</strong><br />
 Specify the basic configurables such as the software version. Click on the "Continue to Launch" button to proceed.
 
 <table>
@@ -48,7 +48,7 @@ Specify the basic configurables such as the software version. Click on the "Cont
 	</tr>
 </table>
 
-<strong>Launch Solodev CMS</strong><br />
+<strong>Launch Solodev CMS Enterprise Edition for Docker</strong><br />
 Confirm your configurations and Click on the "Launch Solodev CMS" link to continue to CloudFormation.
 
 <table>
