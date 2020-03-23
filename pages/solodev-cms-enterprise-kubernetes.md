@@ -1,12 +1,12 @@
 <a href="#"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_Lite_Header.jpg"/></a>
 
-# Solodev CMS Enterprise Edition for Kubernetes
-Designed for enterprise-level demands, Solodev CMS Enterprise Edition for Kubernetes gives you best-of-breed features and advanced capabilities on a secure archtiecture managed by Amazon EKS. Launch Solodev CMS in a new EKS cluster or even deploy to an existing cluster.
+# Solodev Content Management (CMS) for Kubernetes
+Designed for enterprise-level demands, Solodev Content Management (CMS) for Kubernetes gives you best-of-breed features and advanced capabilities on a secure archtiecture managed by Amazon EKS. Launch Solodev CMS in a new EKS cluster or even deploy to an existing cluster.
 
 ## Overview
-Solodev CMS Enterprise Edition for Kubernetes on AWS empowers you to run and scale at will - so you can focus on building, deploying, and managing your applications and not the underlying infrastructure.
+Solodev Content Management (CMS) for Kubernetes on AWS empowers you to run and scale at will - so you can focus on building, deploying, and managing your applications and not the underlying infrastructure.
 
-![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_EKS_Architecture.jpg)
+![AWS Diagram](https://github.com/solodev/aws/blob/master/pages/images/Solodev_CMS_Docker_Architecture.jpg)
 
 ## Step 1: Subscribe on the AWS Marketplace
 Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07XV951M6">AWS Marketplace.</a> Click the button below to get started: 
@@ -20,7 +20,7 @@ Solodev is a professionally managed, enterprise-class Digital Customer Experienc
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
 ## Step 2: Choose Deployment Option
-How you deploy Solodev CMS Enterprise Edition for Kubernetes depends upon your experience, comfort level with deployment technologies, and existing infrastructure. Comfortable with Helm and command line? Visit the <a href="https://github.com/techcto/charts">Solodev Helm Charts</a> repository for instructions on deploying to new or existing clusters with Helm commands. Prefer a streamlined experience? With just a few configurables, you can <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md">deploy Solodev CMS by CloudFormation</a> and have everything in a managed stack.
+How you deploy Solodev Content Management (CMS) for Kubernetes depends upon your experience, comfort level with deployment technologies, and existing infrastructure. Comfortable with Helm and command line? Visit the <a href="https://github.com/techcto/charts">Solodev Helm Charts</a> repository for instructions on deploying to new or existing clusters with Helm commands. Prefer a streamlined experience? With just a few configurables, you can <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md">deploy Solodev CMS by CloudFormation</a> and have everything in a managed stack.
 
 <table>
 	<tr>
