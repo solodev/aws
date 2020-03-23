@@ -6,7 +6,7 @@ Designed for enterprise-level demands, Solodev Content Management (CMS) for Kube
 ## Overview
 Solodev Content Management (CMS) for Kubernetes on AWS empowers you to run and scale at will - so you can focus on building, deploying, and managing your applications and not the underlying infrastructure.
 
-![AWS Diagram](https://raw.githubusercontent.com/pages/images/Solodev_CMS_Docker_Architecture.jpg)
+![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_CMS_Kube_Architecture.jpg)
 
 ## Step 1: Subscribe on the AWS Marketplace
 Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07XV951M6">AWS Marketplace.</a> Click the button below to get started: 
