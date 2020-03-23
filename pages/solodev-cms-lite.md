@@ -6,7 +6,7 @@ The perfect launch pad for small development projects, Solodev CMS Lite Edition 
 ## Overview
 Solodev CMS Lite Edition on AWS uses a set of YAML templates including [Amazon Virtual Private Cloud (VPC)](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html), [Amazon Elastic Compute Cloud (EC2)](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html), [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html), and [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
 
-![AWS Diagram](images/Solodev_Lite_Architecture.jpg)
+![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_CMS_Lite_Architecture.jpg)
 
 ## How to Launch Solodev CMS
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
