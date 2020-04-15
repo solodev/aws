@@ -1,15 +1,15 @@
 <a href="#"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_Lite_Header.jpg"/></a>
 
-# Solodev Content Management (CMS) for Kubernetes
-Designed for enterprise-level demands, Solodev Content Management (CMS) for Kubernetes gives you best-of-breed features and advanced capabilities on a secure archtiecture managed by Amazon EKS. Launch Solodev CMS in a new EKS cluster or even deploy to an existing cluster.
+# Solodev Kubernetes for EKS
+Launch Amazon Elastic Kubernets Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
 ## Overview
-Solodev Content Management (CMS) for Kubernetes on AWS empowers you to run and scale at will - so you can focus on building, deploying, and managing your applications and not the underlying infrastructure.
+Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS CloudFormation</a>.
 
-![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_CMS_Kube_Architecture.jpg)
+![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_EKS_Architecture.jpg)
 
 ## Step 1: Subscribe on the AWS Marketplace
-Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07XV951M6">AWS Marketplace.</a> Click the button below to get started: 
+Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07XV951M6">AWS Marketplace.</a> Click the button below to get started: 
 <table>
 	<tr>
 		<td width="60%"><a href="https://aws.amazon.com/marketplace/pp/B07XV951M6"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/AWS_Marketplace_Logo.jpg" /></a></td>
@@ -19,27 +19,27 @@ Solodev is a professionally managed, enterprise-class Digital Customer Experienc
 
 Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll activate your subscription for you.<br /><br />
 
-## Step 2: Choose Deployment Option
-How you deploy Solodev Content Management (CMS) for Kubernetes depends upon your experience, comfort level with deployment technologies, and existing infrastructure. Comfortable with Helm and command line? Visit the <a href="https://github.com/techcto/charts">Solodev Helm Charts</a> repository for instructions on deploying to new or existing clusters with Helm commands. Prefer a streamlined experience? With just a few configurables, you can <a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md">deploy Solodev CMS by CloudFormation</a> and have everything in a managed stack.
-
+## Step 2: Launch Solodev Kubernetes for EKS via CloudFormation
 <table>
 	<tr>
-		<td width="25%"><a href="https://github.com/techcto/charts"><img src="img/deploy-via-helm.jpg" /></a></td>
+		<td width="25%"><a href="https://github.com/techcto/quickstart-solodev-eks/blob/master/pages/deploy-solodev-eks.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/amazon-eks-by-solodev.jpg" /></a></td>
 		<td>
-			<h3>Deploy via Helm Charts</h3>
-			<p>For those looking to install Solodev CMS to a new or existing Kubernetes cluster via Helm and command line, visit the Solodev Helm Charts repository for further instructions.</p>
-			<p align="right"><a href="https://github.com/techcto/charts"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
+			<h3>Solodev Kubernetes for EKS</h3>
+			<p>Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.</p>
+			<p align="right"><a href="https://github.com/techcto/quickstart-solodev-eks/blob/master/pages/deploy-solodev-eks.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
 		</td>
 	</tr>
 </table>
 
+## Step 3: (Optional) Launch Apps on the Solodev Kubernetes for EKS Cluster
+With your EKS cluster up and running, you can install apps within the cluster itself. Below are available apps with more to come!
 <table>
 	<tr>
-		<td width="25%"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md"><img src="img/deploy-via-cloudformation.jpg" /></a></td>
+		<td width="25%"><a href="https://github.com/techcto/quickstart-solodev-eks/blob/master/pages/deploy-solodev-cms.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-dcx-for-eks.jpg" /></a></td>
 		<td>
-			<h3>Deploy via CloudFormation</h3>
-			<p>Launch a new EKS cluster and deploy Solodev CMS via AWS CloudFormation. By following the configuration instructions, you will be able to have your stacks created in no time.</p>
-			<p align="right"><a href="https://github.com/techcto/quickstart-solodev-dcx/blob/master/eks/pages/deploy-via-cloudformation.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
+			<h3>Solodev CMS</h3>
+			<p>Deploy Solodev CMS for Kubernetes and start managing and scaling your websites and digital experiences on AWS. Rapidly move from your local environment to the cloud, add or remove containers to meet shifts in traffic, and manage entire fleets of Solodev applications with the power of Amazon EKS.</p>
+			<p align="right"><a href="https://github.com/techcto/quickstart-solodev-eks/blob/master/pages/deploy-solodev-cms.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
 		</td>
 	</tr>
 </table>
@@ -56,13 +56,13 @@ Solodev Customer Care Includes
 
 To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
 
-<a href="https://www.solodev.com/product/support.stml"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_Git_Support.jpg"/></a>
+<a href="https://www.solodev.com/features/support.stml"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_Git_Support.jpg"/></a>
 
 ## Need Help?
 Solodev is a professionally managed, enterprise-class solution, and our team of certified engineers are here to support your success. While our self-serve options are easy to launch, you’ve always got a co-pilot at the helm. If you have any questions – or if you already have a Solodev license and need support with your AWS subscription – call <a href="tel:1.800.859.7656">1-800-859-7656</a> and we’ll help you get to the launchpad.
 
 ---
-© 2019 Solodev. All rights reserved worldwide. And off planet. 
+© 2020 Solodev. All rights reserved worldwide. And off planet. 
 
 Errors or corrections? Email us at help@solodev.com.
 
