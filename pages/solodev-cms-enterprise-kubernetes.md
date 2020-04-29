@@ -37,7 +37,7 @@ With your EKS cluster up and running, you can install apps within the cluster it
 	<tr>
 		<td width="25%"><a href="https://github.com/techcto/quickstart-solodev-eks/blob/master/pages/deploy-solodev-cms.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-dcx-for-eks.jpg" /></a></td>
 		<td>
-			<h3>Solodev CMS</h3>
+			<h3>Solodev Content Management (CMS) for Kubernetes</h3>
 			<p>Deploy Solodev CMS for Kubernetes and start managing and scaling your websites and digital experiences on AWS. Rapidly move from your local environment to the cloud, add or remove containers to meet shifts in traffic, and manage entire fleets of Solodev applications with the power of Amazon EKS.</p>
 			<p align="right"><a href="https://github.com/techcto/quickstart-solodev-eks/blob/master/pages/deploy-solodev-cms.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
 		</td>
