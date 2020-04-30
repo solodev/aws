@@ -31,7 +31,7 @@ Already have a Solodev license? Call <a href="tel:1.800.859.7656">1-800-859-7656
 	</tr>
 </table>
 
-## Step 3: (Optional) Launch Apps on the Solodev Kubernetes for EKS Cluster
+## Launch Apps on your Managed Kubernetes Cluster
 With your EKS cluster up and running, you can install apps within the cluster itself. Below are available apps with more to come!
 <table>
 	<tr>
