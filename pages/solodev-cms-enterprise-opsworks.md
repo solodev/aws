@@ -235,8 +235,8 @@ To learn more about our add-on support options, call 1-800-859-7656 to speak wit
 
 ## Developers
 Are you a Solodev Developer? Launch a development stack in your AWS account using the below links. Please note, the builds will only be successfull for authorized Solodev Developers.
-* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-enterprise&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-opsworks.yaml	">Launch Solodev Enterprise OpsWorks</a>
-* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-enterprise-byol&templateURL=https://s3.amazonaws.com/solodev-aws-ha/aws/solodev-enterprise-opsworks-byol.yaml	">Launch Solodev Enterprise OpsWorks BYOL</a>
+* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-enterprise&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks.yaml	">Launch Solodev Enterprise OpsWorks</a>
+* <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=solodev-enterprise-byol&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks-byol.yaml	">Launch Solodev Enterprise OpsWorks BYOL</a>
 
 ## Need Help?
 
