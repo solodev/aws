@@ -144,7 +144,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 	</tr>
 	<tr>
 		<td>DevOpsFlavor</td>
-		<td>Which DevOps tools would you like to use to manage auto scaling (set to "Opsworks" by default)</td>
+		<td>Which DevOps tools would you like to use to manage auto scaling</td>
 	</tr>
 	<tr>
 		<td>RestoreBucketName</td>
