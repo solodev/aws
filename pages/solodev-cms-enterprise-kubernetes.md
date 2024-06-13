@@ -6,7 +6,7 @@ Launch Amazon Elastic Kubernets Service (EKS) in a new cluster and manage your c
 ## Overview
 Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS CloudFormation</a>.
 
-![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/Solodev_EKS_Architecture.jpg)
+![AWS Diagram](https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-kubernetes-template.jpg)
 
 ## Step 1: Subscribe on the AWS Marketplace
 Before launching one of our products, you'll first need to subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07XV951M6">AWS Marketplace.</a> Click the button below to get started: 
